@@ -1,0 +1,515 @@
+---
+sidebar: sidebar 
+permalink: asciidoc_syntax.html 
+---
+= Referencia AsciiDoc
+:toc: macro
+:hardbreaks:
+:allow-uri-read: 
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+AsciiDoc es un lenguaje ligero de marcado, similar al marcado. Elegimos AsciiDoc sobre Markdown estándar porque proporciona más capacidades listas para usar. Aunque es más potente, sigue siendo sencillo de utilizar. Consulte las secciones siguientes para empezar a escribir en AsciiDoc.
+
+Consulte http://asciidoctor.org/docs/user-manual/["Manual del usuario de AsciiDoctor"^] para obtener ayuda adicional.
+
+
+
+== Lo básico
+
+Necesita saber algunas cosas para contribuir a actualizaciones de documentos simples.
+
+
+
+=== Títulos
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+===== Level 4 section
+....
+Sólo puede tener un título de página, pero puede tener varios títulos de sección. Por ejemplo, puede tener tres secciones de nivel 1 que incluyen secciones de nivel 2 y 3:
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+== Level 1 section
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+....
+
+
+=== Texto en negrita
+
+....
+*Text*
+....
+
+
+=== Texto en cursiva
+
+....
+_Text_
+....
+
+
+=== Listas con viñetas
+
+....
+* Item 1
++
+Continuation text for the previous list item.
+
+* Item 2
+** Item 2a
+
+* Item 3
+....
+
+TIP: + es una continuación de la lista. Mantiene el texto en línea con el elemento de la lista. Omitir + afecta al formato de esa línea.
+
+
+
+=== Listas etiquetadas
+
+....
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+o.
+
+....
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+Cuando se añade [horizontal] sobre el elemento 1, la etiqueta y la descripción aparecen en la misma línea. Esto funciona bien cuando usted tiene descripciones muy cortas.
+
+*Ejemplo sin [horizontal]*
+
+Tema 1:: Descripción 1
+Tema 2:: Descripción 2
+
+
+*Ejemplo con [horizontal]*
+
+Tema 1:: Descripción 1
+Tema 2:: Descripción 2
+
+
+
+
+=== Pasos
+
+....
+.Steps
+
+. Step 1
+
+. Step 2
++
+Info for step 2
+
+. Step 3
+.. Step 3a
+.. Step 3b
+
+. Step 4
+....
+
+TIP: + es una continuación de la lista. Mantiene el texto en línea con el elemento de la lista. Omitir + afecta al formato de esa línea.
+
+
+
+=== Imágenes
+
+....
+image:file.png["alt text"]
+....
+_alt text_ significa texto alternativo. Describe la imagen que aparece en la página. El uso principal es para usuarios con discapacidades visuales que utilizan lectores de pantalla.
+
+Dos notas:
+
+. Es mejor incluir texto alt entre comillas porque la puntuación como comas puede afectar la capacidad de transformar el contenido de AsciiDoc a HTML.
+. La https://docs.asciidoctor.org/asciidoc/latest/macros/images/["Médicos de AsciiDoctor"^] indique que _block images_ debe estar en su propia línea con _dos_ dos puntos: `image::file.png`
++
+Pero preferimos usar dos puntos, como se muestra más arriba. El uso de un dos puntos tiene el mismo resultado y funciona mejor con nuestras herramientas internas.
+
+
+
+
+
+=== Vídeos
+
+Alojado en YouTube:
+
+....
+video::id[youtube]
+....
+Alojado localmente en GitHub:
+
+....
+video::file.mp4
+....
+
+
+=== Vínculos
+
+La sintaxis que debe utilizar depende de la que se vincule a:
+
+* <<Enlace a un sitio externo>>
+* <<Enlace a una sección de la misma página>>
+* <<Enlace a otra página de los documentos>>
+
+
+
+
+==== Enlace a un sitio externo
+
+....
+url[link text^]
+....
+El # abre el vínculo en una nueva ficha del navegador.
+
+
+
+==== Enlace a una sección de la misma página
+
+....
+<<section_title>>
+....
+Por ejemplo:
+
+....
+For more details, see <<Headings>>.
+....
+El texto del enlace puede ser algo distinto al título de la sección:
+
+....
+<<section_title,Different link text>>
+....
+Por ejemplo:
+
+....
+<<Headings,Learn the syntax for headings>>.
+....
+
+
+==== Enlace a otra página de los documentos
+
+El archivo debe estar en el mismo repositorio de GitHub:
+
+....
+link:<file_name>.html[Link text]
+....
+Para vincular directamente a una sección del archivo, agregue un hash (#) y el título de la sección:
+
+....
+link:<file_name>.html#<section-name-using-dashes-and-all-lower-case>[Link text]
+....
+Por ejemplo:
+
+....
+link:style.html#use-simple-words[Use simple words]
+....
+
+
+=== Notas, consejos y precauciones
+
+Es posible que desee llamar la atención sobre ciertas afirmaciones mediante notas, sugerencias o declaraciones de precaución. Formatearlas de la siguiente forma:
+
+....
+NOTE: text
+
+TIP: text
+
+CAUTION: text
+....
+Use cada uno de estos con moderación. No desea crear páginas llenas de notas y sugerencias. Ellos se vuelven menos significativos si usted lo hace.
+
+Esto es lo que cada uno de estos parece cuando el contenido de AsciiDoc se convierte en HTML:
+
+
+NOTE: Esto es una nota. Incluye información adicional que un lector puede necesitar saber.
+
+
+TIP: Una sugerencia proporciona información útil que puede ayudar a un usuario a hacer algo o entender algo.
+
+
+CAUTION: Una precaución aconseja al lector que actúe con cuidado. Utilice esto en raras circunstancias.
+
+
+
+== Cosas avanzadas
+
+Si está creando contenido nuevo, le gustaría revisar esta sección para obtener algunos detalles de nitty-gritty.
+
+
+
+=== Encabezados de documento
+
+Cada archivo AsciiDoc incluye dos tipos de encabezados. El primero es para GitHub y el segundo es para AsciiDoctor, que es la herramienta de publicación que convierte el contenido AsciiDoc en HTML.
+
+El encabezado GitHub es el primer conjunto de contenido del archivo .adoc. Debe incluir lo siguiente:
+
+....
+---
+sidebar: sidebar
+permalink: <file_name>.html
+keywords: keyword1, keyword2, keyword3, keyword4, keyword5
+summary: "A summary."
+---
+....
+Las palabras clave y el resumen afectan directamente a los resultados de la búsqueda. De hecho, el propio resumen se muestra en los resultados de la búsqueda. Debe asegurarse de que sea fácil de usar. La mejor práctica es hacer que el resumen refleje su párrafo principal.
+
+
+TIP: Es mejor incluir el resumen entre comillas porque la puntuación como dos puntos puede afectar la capacidad de transformar el contenido de AsciiDoc en HTML.
+
+El siguiente encabezado se coloca directamente debajo del título del documento (consulte <<Títulos>>). Este encabezado debe incluir lo siguiente:
+
+....
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+....
+No tendrá que tocar ninguno de los parámetros de este encabezado. Sólo pegarlo y olvidarse de él.
+
+
+
+=== Párrafo principal
+
+El primer párrafo que aparece bajo el título del documento debe incluir la siguiente sintaxis directamente encima de él:
+
+....
+[.lead]
+This is my lead paragraph for this content.
+....
+[.Lead] aplica el formato CSS al párrafo anterior, que tiene un formato diferente al texto que le sigue.
+
+
+
+=== Tablas
+
+Esta es la sintaxis de una tabla básica:
+
+....
+[cols=2*,options="header",cols="25,75"]
+|===
+| heading column 1
+| heading column 2
+| row 1 column 1 | row 1 column 2
+| row 2 column 1 | row 2 column 2
+|===
+....
+Existen _many_ formas de dar formato a una tabla. Consulte la https://asciidoctor.org/docs/user-manual/#tables["Manual del usuario de AsciiDoctor"^] para obtener ayuda adicional.
+
+
+TIP: Si una celda contiene contenido con formato como listas con viñetas, es mejor agregar una "a" en el encabezado de la columna para habilitar el formato. Por ejemplo: [Cols="2,2,4a" options="header"]
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables["Consulte la referencia rápida de sintaxis de AsciiDoc para obtener más ejemplos de tablas"^].
+
+
+
+=== Encabezados de tareas
+
+Si está explicando cómo realizar una tarea, puede incluir información introductoria antes de llegar a los pasos. Además, es posible que deba decir lo que debe hacer después de completar los pasos. Si lo hace, es mejor organizar esa información mediante encabezados, lo que permite el escaneo.
+
+Use los siguientes encabezados según sea necesario:
+
+.Lo que necesitará
+_La información que el usuario necesita para completar la tarea._
+
+.Acerca de esta tarea
+_Información contextual adicional puede que el usuario necesite saber acerca de esta tarea._
+
+.Pasos
+_Los pasos individuales para completar la tarea._
+
+.El futuro
+_Qué debe hacer el usuario a continuación._
+
+Cada uno de ellos debe incluir un . justo antes del texto, así:
+
+....
+.What you'll need
+.About this task
+.Steps
+.What's next?
+....
+Esta sintaxis aplica texto en negrita en una fuente más grande.
+
+
+
+=== Sintaxis de comandos
+
+Al introducir el comando, encierre el comando dentro de "para aplicar la fuente monoespaciado:
+
+....
+`volume show -is-encrypted true`
+....
+Este es el aspecto de lo siguiente:
+
+`volume show -is-encrypted true`
+
+Para los ejemplos de resultados de comandos o comandos, utilice la siguiente sintaxis:
+
+....
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+....
+Los cuatro guiones permiten introducir líneas de texto independientes que aparecen juntos. Este es el resultado:
+
+[listing]
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+
+
+=== Texto variable
+
+En los comandos y en la salida del comando, escriba el texto de la variable dentro de los guiones bajos para aplicar cursiva.
+
+....
+`vserver nfs modify -vserver _name_ -showmount enabled`
+....
+Este es el aspecto que tienen el comando y el texto variable:
+
+`vserver nfs modify -vserver _name_ -showmount enabled`
+
+
+NOTE: Los guiones bajos no se admiten con resaltado de sintaxis de código en este momento.
+
+
+
+=== Resaltado de sintaxis de código
+
+El resaltado de sintaxis de código ofrece una solución centrada en el desarrollador para documentar los idiomas más populares.
+
+*Ejemplo de salida 1*
+
+[source, http]
+----
+POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "<user_email>",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "<user_password>"
+}
+----
+*Ejemplo de salida 2*
+
+[source, json]
+----
+[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]
+----
+*Idiomas compatibles*
+
+* bash
+* rizo
+* https
+* json
+* powershell
+* puppet
+* python
+* aym
+
+
+*Implementación*
+
+Copie y pegue la siguiente sintaxis y, a continuación, agregue un idioma admitido y el código:
+
+....
+[source,<language>]
+<code>
+....
+Por ejemplo:
+
+....
+[source,curl]
+curl -s https:///v1/ \
+-H accept:application/json \
+-H "Content-type: application/json" \
+-H api-key: \
+-H secret-key: \
+-X [GET,POST,PUT,DELETE]
+....
+
+
+=== Reutilización de contenido
+
+Si tiene un fragmento de contenido que se repite en diferentes páginas, puede escribirlo fácilmente una vez y volver a utilizarlo en esas páginas. La reutilización es posible desde el mismo repositorio y entre repositorios. A continuación se explica su funcionamiento.
+
+. Cree una carpeta en su repositorio denominada _include
++
+https://github.com/NetAppDocs/cloud-tiering["Por ejemplo, echemos un vistazo al repositorio de organización en niveles en cloud"^].
+
+. Agregue un archivo .adoc en esa carpeta que incluya el contenido que desea reutilizar.
++
+Puede ser una frase, una lista, una tabla, una o más secciones, etc. No incluya ningún otro elemento en el archivo, sin encabezados ni nada.
+
+. Ahora vaya a los archivos en los que desea volver a utilizar ese contenido.
+. Si está reutilizando el contenido del repositorio _same_ GitHub, utilice la siguiente sintaxis en una línea por sí misma:
++
+ include::_include/<filename>.adoc[]
++
+Por ejemplo:
+
++
+ include::_include/s3regions.adoc[]
+. Si va a volver a utilizar el contenido en un repositorio _diferente_, utilice la siguiente sintaxis en una línea por sí misma:
++
+ include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
++
+Por ejemplo:
+
++
+ include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
+
+
+¡Eso es todo!
+
+Si desea obtener más información sobre la directiva include, https://asciidoctor.org/docs/user-manual/#include-directive["Consulte el Manual del usuario de AsciiDoctor"^].
