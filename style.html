@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head class="at-element-marker">
+  <title>Guía de estilos para documentos de NetApp</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Guía de estilos para documentos de NetApp" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/contribute/style.html" />
+	<meta property="og:description" content="" />
+  <meta property="og:image" content="https://docs.netapp.com/es-es/contribute/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
+  <link rel="icon" href="/es-es/contribute/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/es-es/contribute/css/netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/es-es/contribute/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/es-es/contribute/css/tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel='stylesheet' href='/es-es/contribute/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    function addAdobeLaunch(adobeId) {
+      var head = document.getElementsByTagName('head')[0];
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/"+adobeId+".min.js";
+      head.appendChild(adobe);
+    }
+
+    function addGoogleAnalytics(gtagId) {
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id="+gtagId;
+      var head = document.getElementsByTagName('head')[0];
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', gtagId);
+    }
+
+    function addConsent(consentId) {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/"+consentId+"/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = consentId;
+      head.appendChild(onetrustScript);
+    }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
+    addAdobeLaunch("launch-e9ff3acac59f");
+    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/contribute/js/na-search.js'></script><script src='/es-es/contribute/js/na-pagenav.js'></script><script src='/es-es/contribute/js/na-utility.js'></script>
+  <script src='/es-es/contribute/js/clouddocs.js'></script>
+  <script src='/es-es/contribute/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/es-es/contribute/js/toc.js'></script>
+  <script src='/es-es/contribute/js/customscripts.js'></script><script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/es-es/contribute"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script>
+  <script src='/es-es/contribute/js/custom-dropdown.js'></script>
+  <script src='/es-es/contribute/js/FileSaver.min.js'></script>
+  <script src='/es-es/contribute/js/jszip-utils.min.js'></script>
+  <script src='/es-es/contribute/js/jszip.min.js'></script>
+  <script src='/es-es/contribute/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document" data-flavor="">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/contribute/issues/new?body=Page%3A%20[Guía de estilos para documentos de NetApp](https://docs.netapp.com/es-es/contribute/style.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/contribute/blob/main/style.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link" style="visibility: hidden;" ><img src="/es-es/contribute/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">EN ESTA PÁGINA</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Producto y soluciones</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Asistencia y capacitación</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Comunidad</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Historias de clientes</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/company/contact-us/" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/es-es/contribute/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/es-es/contribute/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/es-es/contribute/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/es-es/contribute/search.html"
+          data-type="widget" 
+          data-placeholder="Buscar documentación"
+          data-no-results-found="No se encontraron resultados para {query}"
+          data-did-you-mean="Buscar {suggestion}."
+          data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?"
+          data-results-found="{hitCount} resultados encontrados"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">Español</span>
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/es-es/contribute/style.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/contribute/style.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/contribute/style.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/contribute/style.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/contribute/style.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/contribute/style.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/contribute/style.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/contribute/style.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" id="sidebar-height">
+      <button id="btn-sidebar-collapse" onclick="hideSidebar()"><img src="/es-es/contribute/images/collapse.png" alt="Contraer panel de navegación"></button>
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/es-es/contribute/images/pdf.png" alt="" width="16" height="16"/>PDFs disponibles<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
+        <a target="_blank" href="/es-es/contribute/pdfs/fullsite-sidebar/Contribuya_al_contenido_técnico_de_NetApp_en_GitHub.pdf" >
+          <img src="/es-es/contribute/images/pdf.png" alt="" width="16" height="16"/>PDF de este sitio de documentos</a>
+
+
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/es-es/contribute/images/pdf-zip.png" alt="" width="16" height="16"/>
+      <pre>Colección de documentos PDF separados<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="sidebar-nav-container" id="mysidebardiv">
+  <ul id="mysidebar" class="nav"><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Contribuir al contenido"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/contribute/index.html">
+        Contribuir al contenido
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Estilo para documentos de NetApp"
+      data-li-level="1#" 
+      class="  active "
+    ><a class="na-navbar-padding" href="/es-es/contribute/style.html">
+        Estilo para documentos de NetApp
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Referencia AsciiDoc"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/contribute/asciidoc_syntax.html">
+        Referencia AsciiDoc
+      </a></li></ul>
+</div>
+<script>
+  window.onscroll = () => {
+    const value = -40 - (document.body.scrollHeight - (window.innerHeight + document.scrollingElement.scrollTop));
+    
+    document.getElementById("sidebar-height").style.bottom = Math.max(0,value) + "px";
+};
+</script>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
+
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <div class="ie-utility">
+  <button id="btn-sidebar-expand" onclick="showSidebar()"><img src="/es-es/contribute/images/expand.png" alt="Expandir panel de navegación"></button>
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
+        </li>
+        
+
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/es-es/contribute/">Contributor's&nbsp;Guide</a>
+        </li>
+
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/es-es/contribute/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> Se proporciona el idioma español mediante traducción automática para su comodidad. En caso de alguna inconsistencia, el inglés precede al español. </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Guía de estilos para documentos de NetApp</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2023-02-20 16:44:38 +0000">02/20/2023</time>
+    
+  
+
+<span>Colaboradores
+</span>
+
+
+</p>
+
+<div id="toc" class="toc">
+<div id="toctitle">Tabla de Contenido</div>
+<ul class="sectlevel1">
+<li><a href="#escribir-en-conversacionalmente">Escribir en conversacionalmente</a></li>
+<li><a href="#escribir-con-facilidad">Escribir con facilidad</a></li>
+<li><a href="#escribir-como-mínimo">Escribir como mínimo</a></li>
+<li><a href="#escribir-activamente">Escribir activamente</a></li>
+<li><a href="#usar-un-idioma-inclusivo">Usar un idioma inclusivo</a></li>
+<li><a href="#llegar-al-punto">Llegar al punto</a></li>
+<li><a href="#utiliza-muchas-imágenes">Utiliza muchas imágenes</a></li>
+<li><a href="#crear-contenido-que-pueda-ser-canificable">Crear contenido que pueda ser canificable</a></li>
+<li><a href="#centrarse-en-un-objetivo-del-usuario-o-en-un-aspecto-específico-de-ese-objetivo">Centrarse en un objetivo del usuario o en un aspecto específico de ese objetivo</a></li>
+<li><a href="#organice-el-contenido-según-el-objetivo-del-usuario">Organice el contenido según el objetivo del usuario</a></li>
+<li><a href="#escribir-para-un-público-global">Escribir para un público global</a></li>
+<li><a href="#directrices-de-la-a-a-la-z">Directrices de la a a la Z.</a>
+<ul class="sectlevel2">
+<li><a href="#voz-activa-frente-a-voz-pasiva">voz activa (frente a “voz pasiva”)</a></li>
+<li><a href="#admoniciones">admoniciones</a></li>
+<li><a href="#después-frente-a-una-vez">después (frente a “una vez”)</a></li>
+<li><a href="#también">también</a></li>
+<li><a href="#yo">y/o.</a></li>
+<li><a href="#como">como</a></li>
+<li><a href="#mediante-el-uso-frente-a-uso-o-con">mediante el uso (frente a “uso” o “con”)</a></li>
+<li><a href="#can-frente-a-poder-puede-debe-o-debe">can (frente a “poder”, “puede”, “debe” o “debe”)</a></li>
+<li><a href="#capitalización">capitalización</a></li>
+<li><a href="#avisos-de-precaución">Avisos de PRECAUCIÓN</a></li>
+<li><a href="#coherencia">coherencia</a></li>
+<li><a href="#contracciones">contracciones</a></li>
+<li><a href="#asegurarse-en-comparación-con-confirmar-o-verificar">asegurarse (en comparación con "confirmar" o "verificar")</a></li>
+<li><a href="#gráficos">gráficos</a></li>
+<li><a href="#gramática">gramática</a></li>
+<li><a href="#si-no-es-así">si no es así</a></li>
+<li><a href="#si-frente-a-si-o-cuándo">si (frente a “si” o “cuándo”)</a></li>
+<li><a href="#voz-imperativa">voz imperativa</a></li>
+<li><a href="#direcciones-ip-e-ipv6">Direcciones IP e IPv6</a></li>
+<li><a href="#futuras-funcionalidades-o-versiones">futuras funcionalidades o versiones</a></li>
+<li><a href="#artículos-de-kb-referencia-a">Artículos de KB: Referencia a.</a></li>
+<li><a href="#listas">listas</a></li>
+<li><a href="#localización">localización</a></li>
+<li><a href="#minimalismo">minimalismo</a></li>
+<li><a href="#información-de-notas">Información de NOTAS</a></li>
+<li><a href="#números">números</a></li>
+<li><a href="#plagio">plagio</a></li>
+<li><a href="#requisitos-previos">requisitos previos</a></li>
+<li><a href="#anterior-frente-a-antes-anterior-o-anterior">anterior (frente a "antes", "anterior" o "anterior")</a></li>
+<li><a href="#signos-de-puntuación">signos de puntuación</a></li>
+<li><a href="#desde-entonces">desde entonces</a></li>
+<li><a href="#ortografía">ortografía</a></li>
+<li><a href="#eso-en-vez-de-qué-o-quién">eso (en vez de “qué” o “quién”)</a></li>
+<li><a href="#información-sobre-consejos">INFORMACIÓN sobre CONSEJOS</a></li>
+<li><a href="#marcas-comerciales">marcas comerciales</a></li>
+<li><a href="#interfaz-de-usuario">interfaz de usuario</a></li>
+<li><a href="#mientras-frente-a-aunque">mientras (frente a “aunque”)</a></li>
+<li><a href="#flujo-de-trabajo">flujo de trabajo</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Nuestro estilo es conversacional y empático, pero nos mantenemos profesionales y llegar al punto. Siga estas directrices al escribir contenido para documentos de NetApp.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="escribir-en-conversacionalmente">Escribir en conversacionalmente</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Escriba como usted para hablar cuando le explique algo a un colega profesional. Escribir en un tono conversacional le ayuda a conectar con su audiencia.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/contribute/images/tip.svg" alt="Sugerencia">
+</td>
+<td class="content">
+Lea lo que ha escrito en voz alta. Como dijo Elmore Leonard, novelista y guionista estadounidense, “Si suena como escribir, lo reescribo”.
+</td>
+</tr>
+</table>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Demasiado formal</th>
+<th class="tableblock halign-left valign-top">Demasiado informal</th>
+<th class="tableblock halign-left valign-top">Nuestro estilo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Si tiene problemas con Cloud Tiering, puede ver el estado del estado en la consola del clúster para determinar por qué se ha producido el error. El estado refleja el estado del sistema ONTAP y del conector de servicio.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No es divertido cuando suceden fracasos. No te preocupes, sólo tienes que echar un vistazo al panel de instrumentos para ver lo que sucedió y lo que está afectado.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cuando se produce un fallo, la organización en niveles en la nube muestra un estado de "error" en el Panel de clústeres. Consulte el estado para obtener información sobre el error.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Puede pagar por la organización en niveles del cloud de varias formas. Puede pagar por Cloud Tiering mediante una suscripción de pago por uso, puede pagar mediante una licencia de organización en niveles de ONTAP o puede pagar mediante una combinación de ambos. No puede obtener licencias desde Cloud Manager; debe dirigirse directamente al servicio Cloud Tiering para configurarlo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tenemos como tres formas de pagar por la organización en niveles del cloud. Una suscripción de pago por uso, pero también una licencia de organización en niveles de ONTAP o incluso una combinación de ambas. Pero no puede obtener licencias de Cloud Manager, así que solo tiene que ir directamente al servicio Cloud Tiering para configurarlo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pague por Cloud Tiering mediante una suscripción de pago por uso, una licencia de organización en niveles de ONTAP o una combinación de ambos. La licencia no está disponible desde Cloud Manager, pero puede dirigirse directamente al servicio Cloud Tiering para configurarlo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Antes de poder aprovisionar almacenamiento, debe detectar el clúster de ONTAP en Cloud Manager. Una vez finalizada la detección, debe abrir el entorno de trabajo para aprovisionar el almacenamiento.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Todo lo que haga es descubrir en primer lugar su clúster de ONTAP desde Cloud Manager y, a continuación, abrir el entorno de trabajo para comenzar a aprovisionar almacenamiento. ¡Fácil!</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Después de descubrir su clúster de ONTAP desde Cloud Manager, abra el entorno de trabajo para aprovisionar almacenamiento.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analice los atributos de estado del sistema de almacenamiento de una de dos maneras, según lo que desee analizar: Seleccione el widget de atributo de estado de la consola o seleccione Ver todo para ver la lista completa de atributos de estado.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tiene dos formas de analizar los atributos de bienestar de su sistema: Solo tiene que seleccionar el widget de atributo de bienestar en el panel de control. O bien, si prefiere ver toda la lista de atributos de bienestar en una sola vista, seleccione Ver todo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Seleccione el widget de atributo de estado en el panel o seleccione Ver todo para ver la lista de todas las acciones y riesgos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cuando se inicie el asistente de configuración, siga las instrucciones del asistente para configurar el nodo y unirlo al clúster. Los siguientes pasos le guian por los pasos del asistente.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aparece el asistente de configuración (casi como magia) para guiarle por el sencillo proceso de configurar el nodo y unirlo al clúster.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Siga las instrucciones del asistente de configuración para configurar el nodo y unirlo al clúster.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Puede elegir entre varios tipos de formatos de contenido para instalar y configurar el nuevo sistema. Cada tipo de formato proporciona instrucciones completas. Elija el tipo de formato que más se ajuste a la forma en que desee aprender.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">¿Cómo desea configurar e instalar el sistema? Proporcionamos instrucciones en varios tipos de formato de contenido, pero solo usted sabe cómo le gusta aprender.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elija un tipo de formato de contenido que le guiará durante la instalación y configuración del sistema.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="escribir-con-facilidad">Escribir con facilidad</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Evite palabras grandes y confusas. Simplifique. Sino que explica algo a un colega profesional, que no muestra su vocabulario.</p>
+</div>
+<div class="paragraph">
+<p><strong>En lugar de esta</strong>: “Dissocie al usuario de su cuenta central de cloud de NetApp”.</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: “Elimine al usuario de su cuenta de Cloud Central de NetApp”.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="escribir-como-mínimo">Escribir como mínimo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Las frases cortas y sencillas facilitan la lectura o exploración del contenido. Está bien usar una frase más larga cada vez y luego, pero seguir con una más corta. Así.</p>
+</div>
+<div class="paragraph">
+<p><strong>En lugar de este</strong>: “Para replicar datos entre un sistema Cloud Volumes ONTAP en sistemas AWS y ONTAP en otras redes, debe tener una conexión VPN entre Amazon VPC y la otra red, por ejemplo, un vnet de Azure o su red corporativa”.</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: “La replicación de datos entre redes requiere conexión a través de una VPN. Por ejemplo, entre Amazon VPC y su red corporativa o entre AWS y Azure”.</p>
+</div>
+<div class="paragraph">
+<p>Consulte también <a href="#minimalismo">minimalismo</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="escribir-activamente">Escribir activamente</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Evitar la voz pasiva es una regla estándar para la escritura tecnológica, pero es especialmente importante usar la voz activa cuando se desea mantener la conversación.</p>
+</div>
+<div class="paragraph">
+<p><strong>En lugar de este</strong>: “Se deben proporcionar los permisos necesarios antes de implantar el primer clúster”.</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: “Proporcione los permisos necesarios antes de implementar el primer clúster”.</p>
+</div>
+<div class="paragraph">
+<p>Consulte también <a href="#voz-activa-frente-a-voz-pasiva">voz activa (frente a “voz pasiva”)</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="usar-un-idioma-inclusivo">Usar un idioma inclusivo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>NetApp cree que la documentación de sus productos no debe contener un lenguaje discriminatorio y exclusivo. Las palabras que utilizamos pueden marcar la diferencia entre forjar una relación positiva con nuestros clientes o alejarlos. Especialmente con palabras escritas, el impacto es más importante que la intención.</p>
+</div>
+<div class="paragraph">
+<p>Mientras crea contenido para los productos de NetApp, evite cualquier lenguaje que se pueda interpretar como degradante, racista, sexista u otro tipo de opresión. En su lugar, utilice un idioma accesible y acogedor para todo aquel que necesite utilizar la documentación. Por ejemplo, en lugar de "maestro/esclavo", utilice "primario/secundario".</p>
+</div>
+<div class="paragraph">
+<p>Sabemos que tenemos trabajo que hacer para eliminar todo el lenguaje no incluido de nuestra documentación y nuestros productos. Estamos trabajando activamente en nuestros estándares y prácticas recomendadas y esperamos actualizar esta sección con orientación adicional en el futuro.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="llegar-al-punto">Llegar al punto</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Comience con lo que es importante para el usuario. Averigüe qué es lo que el usuario está intentando hacer y céntrese en ayudarles a alcanzar ese objetivo.</p>
+</div>
+<div class="paragraph">
+<p><strong>En lugar de este</strong>: “Cloud Sync puede sincronizar datos de un servidor NFS con otro servidor NFS mediante el cifrado de datos en vuelo. Cifrar los datos puede ayudar si tiene estrictas políticas de seguridad para transferir datos a través de redes.”</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: “Si su empresa tiene políticas de seguridad estrictas, utilice el cifrado de datos en vuelo para sincronizar datos entre servidores NFS en diferentes redes”.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="utiliza-muchas-imágenes">Utiliza muchas imágenes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La mayoría de las personas son estudiantes visuales. Utilice vídeos, diagramas y capturas de pantalla para mejorar el aprendizaje. Los elementos visuales también ayudan a dividir bloques de texto.</p>
+</div>
+<div class="ulist">
+<div class="title">Ejemplos</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/concept_accounts_aws.html" target="_blank" rel="noopener">"Ejemplo #1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/task_getting_started_azure.html" target="_blank" rel="noopener">"Ejemplo #2"</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Consulte también <a href="#gráficos">gráficos</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="crear-contenido-que-pueda-ser-canificable">Crear contenido que pueda ser canificable</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Utilice encabezados, listas y tablas para ayudar a los usuarios a buscar lo que desean.</p>
+</div>
+<div class="ulist">
+<div class="title">Ejemplos</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html" target="_blank" rel="noopener">"Ejemplo #1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html" target="_blank" rel="noopener">"Ejemplo #2"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="centrarse-en-un-objetivo-del-usuario-o-en-un-aspecto-específico-de-ese-objetivo">Centrarse en un objetivo del usuario o en un aspecto específico de ese objetivo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Si está describiendo cómo completar una serie de tareas, póngela todo en una página de una serie de secciones, incluida información conceptual y basada en referencias. No divida su página en varias mini páginas, lo que requiere demasiado clic. Al mismo tiempo, no cree páginas largas e intimidantes. Use su mejor juicio para decidir cuándo una página es demasiado larga.</p>
+</div>
+<div class="ulist">
+<div class="title">Ejemplos</div>
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html" target="_blank" rel="noopener">"Ejemplo #1"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/occm/concept_ha.html" target="_blank" rel="noopener">"Ejemplo #2"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="organice-el-contenido-según-el-objetivo-del-usuario">Organice el contenido según el objetivo del usuario</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ayude a los usuarios a encontrar la información que necesitan cuando la necesitan. Para ponerlos y sacarlos de los documentos lo antes posible, organice el contenido de la siguiente forma:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Primera entrada en la navegación izquierda (nivel alto)</dt>
+<dd>
+<p>Organice el contenido alrededor de los objetivos que el usuario intenta alcanzar. Por ejemplo, primeros pasos o protección de datos.</p>
+</dd>
+<dt class="hdlist1">Las segundas entradas de la navegación (nivel medio)</dt>
+<dd>
+<p>Organice el contenido alrededor de las amplias tareas que componen las metas. Por ejemplo, configurar la recuperación ante desastres o configurar la protección de datos.</p>
+</dd>
+<dt class="hdlist1">Páginas individuales (nivel detallado)</dt>
+<dd>
+<p>Organice el contenido alrededor de las tareas individuales que componen las tareas amplias, con cada una centrada en un solo aprendizaje o haciendo un aspecto de esa amplia tarea. Por ejemplo, las tareas necesarias para configurar la recuperación ante desastres.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="escribir-para-un-público-global">Escribir para un público global</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Escribimos para nuestros clientes y socios de todo el mundo, y gran parte de nuestro contenido se traduce mediante herramientas de traducción automática neuronal o traducción humana. Siga estas directrices para una redacción más clara y una traducción más sencilla:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Escribir frases cortas y sencillas.</p>
+</li>
+<li>
+<p>Utilice gramática y puntuación estándar.</p>
+</li>
+<li>
+<p>Utilice una palabra para un significado y un significado para una palabra.</p>
+</li>
+<li>
+<p>Utilice contracciones comunes.</p>
+</li>
+<li>
+<p>Utilice gráficos para aclarar o reemplazar texto.</p>
+</li>
+<li>
+<p>Evite incrustar texto en gráficos.</p>
+</li>
+<li>
+<p>Evite tener tres o más nombres en una cadena.</p>
+</li>
+<li>
+<p>Evitar antecedentes poco claros.</p>
+</li>
+<li>
+<p>Evitar la jerga, los coloquialismos y las metáforas.</p>
+</li>
+<li>
+<p>Evite ejemplos no técnicos.</p>
+</li>
+<li>
+<p>Evite utilizar retornos duros y espaciado.</p>
+</li>
+<li>
+<p>No use el humor ni la ironía.</p>
+</li>
+<li>
+<p>No utilice contenido discriminatorio.</p>
+</li>
+<li>
+<p>No utilice un lenguaje de género a menos que usted esté escribiendo para una persona específica.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="directrices-de-la-a-a-la-z">Directrices de la a a la Z.</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="voz-activa-frente-a-voz-pasiva">voz activa (frente a “voz pasiva”)</h3>
+<div class="paragraph">
+<p>En voz activa, el tema de la frase es el doer de la acción:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Si apaga el sistema de forma incorrecta, la interfaz muestra un mensaje de advertencia.</p>
+</li>
+<li>
+<p>NetApp ha recibido el contrato.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>La voz activa mantiene la grabación nítida y clara. Utilice los usuarios activos de voz y dirección directamente como “usted” a menos que tenga una razón específica para usar la voz pasiva.</p>
+</div>
+<div class="paragraph">
+<p>En voz pasiva, el hacedor de la acción no está claro:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Se muestra un mensaje de advertencia si el sistema se apaga incorrectamente.</p>
+</li>
+<li>
+<p>NetApp ha sido galardonado con el contrato.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Utilizar voz pasiva cuando:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Usted no sabe quién o qué realizó la acción.</p>
+</li>
+<li>
+<p>Usted quiere evitar culpar a los usuarios por los resultados de una acción.</p>
+</li>
+<li>
+<p>No se puede escribir a su alrededor, como por ejemplo para obtener información previa.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Para convenciones adicionales de verbo, consulte:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"Guía de estilo de escritura de Microsoft"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"Manual de estilo de Chicago"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam-Webster Diccionario en línea"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="admoniciones">admoniciones</h3>
+<div class="paragraph">
+<p>Utilice las siguientes etiquetas para identificar el contenido por separado del flujo de contenido principal:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>NOTA</p>
+<div class="paragraph">
+<p>Utilice LA NOTA para obtener información importante que debe ser distinta del resto del texto. Evite utilizar UNA NOTA para obtener información “agradable de conocer” que no es necesaria para que los usuarios aprendan sobre la tarea o completen la tarea.</p>
+</div>
+</li>
+<li>
+<p>CONSEJO</p>
+<div class="paragraph">
+<p>Use LA SUGERENCIA con moderación, si es que es que se trata de hacerlo, porque nuestra política es documentar siempre la información de las mejores prácticas de forma predeterminada. Si es necesario, use CONSEJO para contener información sobre las mejores prácticas que ayude a los usuarios a utilizar un producto o a completar un paso o una tarea de forma fácil y eficaz.</p>
+</div>
+</li>
+<li>
+<p>PRECAUCIÓN</p>
+<div class="paragraph">
+<p>Tenga cuidado al advertir a los usuarios sobre condiciones o procedimientos que pueden causar lesiones personales que no sean letales o extremadamente peligrosas.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="después-frente-a-una-vez">después (frente a “una vez”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice “después” para indicar una cronología: “Encienda el ordenador después de enchufarlo”.</p>
+</li>
+<li>
+<p>Utilice “una vez” sólo para indicar “una vez”.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="también">también</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice "también" para indicar "adicionalmente".</p>
+</li>
+<li>
+<p>No utilice "también" para decir "alternativamente".</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="yo">y/o.</h3>
+<div class="paragraph">
+<p>Elija el término más preciso si hay uno. Si ninguno de los dos términos es más preciso que el otro, utilice “y/o”.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="como">como</h3>
+<div class="paragraph">
+<p>No utilice “como” para decir “porque”.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="mediante-el-uso-frente-a-uso-o-con">mediante el uso (frente a “uso” o “con”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice “utilizando” cuando la entidad que está haciendo el uso es el tema: “Puede agregar nuevos componentes al repositorio mediante el menú componentes”.</p>
+</li>
+<li>
+<p>Puede empezar una frase con "usar" o "con", que a veces son aceptables con los nombres de productos: "Con SnapDrive, puede administrar discos virtuales y copias Snapshot en un entorno Windows".</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="can-frente-a-poder-puede-debe-o-debe">can (frente a “poder”, “puede”, “debe” o “debe”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice “CAN” para indicar capacidad: “Puede confirmar los cambios en cualquier momento durante este procedimiento”.</p>
+</li>
+<li>
+<p>Utilice “podría” para indicar la posibilidad: “La descarga de varios programas podría afectar al tiempo de procesamiento”.</p>
+</li>
+<li>
+<p>No utilice “el mayo”, lo cual es ambiguo porque podría significar capacidad o permiso.</p>
+</li>
+<li>
+<p>Utilice “debería” para indicar una acción recomendada pero opcional. Consideremos, en cambio, usar una frase alternativa, como “recomendamos”.</p>
+</li>
+<li>
+<p>Evite usar “debe” porque es pasivo. Considere la posibilidad de reestablecer el pensamiento como una instrucción utilizando la voz imperativa. Si utiliza “debe”, utilícelo para indicar una acción o condición necesaria.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="capitalización">capitalización</h3>
+<div class="paragraph">
+<p>Utilice mayúsculas de estilo de frase (minúsculas) para casi todo. Solo capitalice:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>La primera palabra de frases y encabezados, incluidos los títulos de las tablas</p>
+</li>
+<li>
+<p>La primera palabra de los elementos de la lista, incluidos los fragmentos de frase</p>
+</li>
+<li>
+<p>Unas adecuadas</p>
+</li>
+<li>
+<p>Títulos de documentos y subtítulos (capitalice todas las palabras y preposiciones principales de cinco o más letras)</p>
+</li>
+<li>
+<p>Elementos de la interfaz de usuario, pero solo si están capitalizados en la interfaz. De lo contrario, utilice minúsculas.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="avisos-de-precaución">Avisos de PRECAUCIÓN</h3>
+<div class="paragraph">
+<p>Tenga cuidado al advertir a los usuarios sobre condiciones o procedimientos que pueden causar lesiones personales que no sean letales o extremadamente peligrosas.</p>
+</div>
+<div class="paragraph">
+<p>Consulte <a href="#admoniciones">admoniciones</a> para otras etiquetas que identifican el contenido por separado del flujo de contenido principal.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="coherencia">coherencia</h3>
+<div class="paragraph">
+<p>“Escribir como usted habla cuando usted está explicando algo a un colega profesional” significa algo diferente a todos. Nuestro estilo de conversación profesional nos ayuda a conectarnos a los usuarios y aumenta la frecuencia de incoherencias menores entre varios autores que contribuyen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Céntrese en hacer el contenido claro y fácil de usar. Si todo el contenido es claro y fácil de usar, las inconsistencias menores no importan.</p>
+</li>
+<li>
+<p>Sea coherente dentro de la página que está escribiendo.</p>
+</li>
+<li>
+<p>Siga siempre las directrices de <a href="#escribir-para-un-público-global">Escribir para un público global</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="contracciones">contracciones</h3>
+<div class="paragraph">
+<p>Las contracciones refuerzan un tono conversacional, y muchas contracciones son fáciles de entender y traducir.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice contracciones como estas, que son fáciles de entender y traducir:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo es</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ya lo está</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no es</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">por ahora</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo era</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sí</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo fueron</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vamos</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo hizo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">lo haremos (si se requiere tiempo futuro)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo hace</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo hará (si se requiere tiempo futuro)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no lo hagas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">usted (si se requiere tiempo futuro)</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>No utilice contracciones como estas, que son difíciles de entender y traducir:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">lo habría sido</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">debería haber sido así</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no habría sido así</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no debería haber sido así</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">podría haber sido así</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no podría haber sido así</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="asegurarse-en-comparación-con-confirmar-o-verificar">asegurarse (en comparación con "confirmar" o "verificar")</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice "asegurar" para indicar "asegurarse". Incluya “eso”, según proceda: "Asegúrese de que haya suficiente espacio en blanco alrededor de las ilustraciones."</p>
+</li>
+<li>
+<p>Nunca use “asegurar” para implicar una promesa o garantía: “Usar Cloud Manager para garantizar que puede aprovisionar volúmenes NFS y CIFS en clústeres de ONTAP”.</p>
+</li>
+<li>
+<p>Utilice “Confirmar” o “verificar” cuando signifique que el usuario debe comprobar dos veces algo que ya existe o que ya ha ocurrido: “Compruebe que NFS está configurado en el clúster”.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="gráficos">gráficos</h3>
+<div class="paragraph">
+<p>Evalúe continuamente el contenido para oportunidades de incluir ilustraciones útiles, diagramas, diagramas de flujo, capturas de pantalla u otras referencias visuales. Los gráficos a menudo transmiten conceptos complejos y pasos más claramente que el texto.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Incluya una descripción de la intención de la ilustración de comunicar: “En la siguiente ilustración se muestran los LED de la fuente de alimentación de CA en el panel posterior.</p>
+</li>
+<li>
+<p>Consulte la ubicación de la ilustración como "siguiente" o "anterior", no "arriba" o "abajo".</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="gramática">gramática</h3>
+<div class="paragraph">
+<p>Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"Guía de estilo de escritura de Microsoft"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"Manual de estilo de Chicago"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam-Webster Diccionario en línea"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="si-no-es-así">si no es así</h3>
+<div class="paragraph">
+<p>No utilice “si no” por sí solo para referirse a la frase anterior:</p>
+</div>
+<div class="paragraph">
+<p><strong>En lugar de este</strong>: “El ordenador debería estar apagado. Si no es así, apáguela.”</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: "Verifique que el ordenador esté apagado".</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="si-frente-a-si-o-cuándo">si (frente a “si” o “cuándo”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice “if” para indicar una condición, como en "si esto, entonces eso" construcciones.</p>
+</li>
+<li>
+<p>Use "si" cuando haya una condición declarada o implícita "o no". Para facilitar la traducción, a menudo es mejor reemplazar "ya sea o no" por "solo".</p>
+</li>
+<li>
+<p>Use “cuándo” para indicar un paso de tiempo.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="voz-imperativa">voz imperativa</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice la voz imperativa para los pasos, directivas, solicitudes y encabezados de las listas de acciones de los usuarios:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>“En la página entornos de trabajo, haga clic en detectar y seleccione clúster de ONTAP”.</p>
+</li>
+<li>
+<p>“Gire el mango de la leva para que quede al ras con la fuente de alimentación.”</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Considere la posibilidad de utilizar la voz necesaria para sustituir la voz pasiva:</p>
+<div class="paragraph">
+<p><strong>En lugar de este</strong>: “Se deben proporcionar los permisos necesarios antes de implantar el primer clúster”.</p>
+</div>
+<div class="paragraph">
+<p><strong>Haga esto</strong>: “Proporcione los permisos necesarios antes de implementar el primer clúster”.</p>
+</div>
+</li>
+<li>
+<p>Evite utilizar la voz imperativa para incrustar pasos en la información conceptual y de referencia.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="direcciones-ip-e-ipv6">Direcciones IP e IPv6</h3>
+<div class="paragraph">
+<p>Para las direcciones IP (incluida IPv6) en ejemplos, es seguro incluir cualquier dirección que empiece por “10.x”.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="futuras-funcionalidades-o-versiones">futuras funcionalidades o versiones</h3>
+<div class="paragraph">
+<p>No haga referencia a la programación o el contenido de las próximas versiones o funciones de productos, excepto para decir que una función o función “actualmente no es compatible”.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="artículos-de-kb-referencia-a">Artículos de KB: Referencia a.</h3>
+<div class="paragraph">
+<p>Consulte los artículos de la base de conocimientos de NetApp (NetApp Knowledgebase) cuando corresponda. Para páginas de recursos y contenido de GitHub, coloque el vínculo en texto en ejecución.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="listas">listas</h3>
+<div class="paragraph">
+<p>Las listas de información suelen ser más fáciles de escanear y absorber que los bloques de texto. Considere formas de simplificar la información compleja presentándola en forma de lista. A continuación se indican algunas directrices generales, pero use su criterio:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Asegúrese de que el motivo de la lista está claro. Introduzca la lista con una frase completa, un fragmento de frase con dos puntos o un encabezado.</p>
+</li>
+<li>
+<p>Las listas deben tener entre dos y siete entradas. En general, cuanto más corta sea la información de cada entrada, más entradas podrá agregar mientras mantiene la lista en un estado de exploración.</p>
+</li>
+<li>
+<p>Las entradas de lista deben ser lo más explorables posible. Evite bloques de texto que se puedan escanear para mantener las entradas de la lista.</p>
+</li>
+<li>
+<p>Las entradas de la lista deben comenzar con una letra mayúscula, y las entradas de la lista deben ser gramaticalmente paralelas. Por ejemplo, comience cada entrada con un sustantivo o un verbo:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si todas las entradas de la lista son frases completas, terminarlas con períodos.</p>
+</li>
+<li>
+<p>Si todas las entradas de la lista son fragmentos de frase, no las finalice con puntos.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Las entradas de lista deben ordenarse de forma lógica, como alfabéticamente o cronológicamente.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="localización">localización</h3>
+<div class="paragraph">
+<p>Consulte <a href="#escribir-para-un-público-global">Escribir para un público global</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="minimalismo">minimalismo</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>¿Los usuarios necesitan este contenido en este lugar, en este momento?</p>
+</li>
+<li>
+<p>¿Puedo presentar el contenido en menos palabras sin sonar demasiado formal o demasiado informal?</p>
+</li>
+<li>
+<p>¿Puedo acortar o simplificar una frase larga o dividirla en dos o más frases?</p>
+</li>
+<li>
+<p>¿Puedo utilizar una lista para hacer que el contenido sea más explorable?</p>
+</li>
+<li>
+<p>¿Puedo utilizar un gráfico para aumentar o reemplazar un bloque de texto?</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="información-de-notas">Información de NOTAS</h3>
+<div class="paragraph">
+<p>Utilice LA NOTA para obtener información importante que debe ser distinta del resto del texto. Evite utilizar UNA NOTA para obtener información “agradable de conocer” que no es necesaria para que los usuarios aprendan sobre la tarea o completen la tarea.</p>
+</div>
+<div class="paragraph">
+<p>Consulte <a href="#admoniciones">admoniciones</a> para otras etiquetas que identifican el contenido por separado del flujo de contenido principal.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="números">números</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice números arábigos para 10 y todos los números mayores de 10, con las siguientes excepciones:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si comienza una frase con un número, utilice una palabra, no un número árabe.</p>
+</li>
+<li>
+<p>Utilice palabras (no números) para números aproximados.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Utilice palabras para números menores de 10.</p>
+</li>
+<li>
+<p>Si una frase contiene una mezcla de números menores de 10 y mayores de 10, utilice números árabes para todos los números.</p>
+</li>
+<li>
+<p>Para conocer las convenciones de números adicionales, consulte:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"Guía de estilo de escritura de Microsoft"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"Manual de estilo de Chicago"</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="plagio">plagio</h3>
+<div class="paragraph">
+<p>Documentamos los productos de NetApp y la interacción de los productos de NetApp con productos de terceros. No documentamos productos de terceros. Nunca deberíamos copiar y pegar contenido de terceros en nuestros documentos y no deberíamos hacerlo nunca.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="requisitos-previos">requisitos previos</h3>
+<div class="paragraph">
+<p>Los requisitos previos identifican las condiciones que deben existir o las acciones que los usuarios deben haber completado antes de iniciar la tarea actual.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Identifique la naturaleza del contenido con un encabezado, como “requisitos previos”, “antes de empezar” o “antes de empezar”.</p>
+</li>
+<li>
+<p>Utilice la voz pasiva para la redacción de los requisitos previos si tiene sentido hacerlo:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>“Es necesario configurar NFS o CIFS en el clúster”.</p>
+</li>
+<li>
+<p>“Debe tener la dirección IP de administración del clúster y la contraseña de la cuenta de usuario administrador para añadir el clúster a Cloud Manager”.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Aclare el requisito previo según sea necesario: “Debe configurarse NFS o CIFS en el clúster. Puede configurar NFS y CIFS mediante System Manager o la CLI.”</p>
+</li>
+<li>
+<p>Considere otras formas de presentar la información, por ejemplo, si sería apropiado volver a escribir el contenido como el primer paso de la tarea actual:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Requisito previo: “Debe tener los permisos necesarios antes de implementar el primer clúster”.</p>
+</li>
+<li>
+<p>Paso: “Proporcione los permisos necesarios para implementar el primer clúster”.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="anterior-frente-a-antes-anterior-o-anterior">anterior (frente a "antes", "anterior" o "anterior")</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Si es posible, sustituya "anterior" por "antes".</p>
+</li>
+<li>
+<p>Si no se puede usar “antes”, use “previos” como adjetivo para referirse a algo que ocurrió antes en el tiempo o con un orden de importancia mayor.</p>
+</li>
+<li>
+<p>Use “Previous” para indicar algo que ocurrió en un momento no especificado antes.</p>
+</li>
+<li>
+<p>Use “precedente” para indicar algo que ocurrió inmediatamente antes.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="signos-de-puntuación">signos de puntuación</h3>
+<div class="paragraph">
+<p>Simplifique. En general, mientras más puntuación se incluya en una frase, más células cerebrales se necesita entender.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice una coma en serie (coma Oxford) antes de la conjunción (“y” o “o”) en una lista narrativa de tres o más artículos.</p>
+</li>
+<li>
+<p>Limite el uso de punto y coma.</p>
+</li>
+<li>
+<p>Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"Guía de estilo de escritura de Microsoft"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"Manual de estilo de Chicago"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam-Webster Diccionario en línea"</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="desde-entonces">desde entonces</h3>
+<div class="paragraph">
+<p>Use “since” para indicar un paso de tiempo. No utilice "desde" para decir "porque".</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ortografía">ortografía</h3>
+<div class="paragraph">
+<p>Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noopener">"Guía de estilo de escritura de Microsoft"</a></p>
+</li>
+<li>
+<p><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank" rel="noopener">"Manual de estilo de Chicago"</a></p>
+</li>
+<li>
+<p><a href="https://www.merriam-webster.com/" target="_blank" rel="noopener">"Merriam-Webster Diccionario en línea"</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="eso-en-vez-de-qué-o-quién">eso (en vez de “qué” o “quién”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Utilice “que” (sin una coma de salida) para introducir cláusulas que sean necesarias para que la frase tenga sentido.</p>
+</li>
+<li>
+<p>Use “que” incluso si la frase es clara en inglés sin ella: "Verifique que el ordenador esté apagado".</p>
+</li>
+<li>
+<p>Utilice “qué” (con una coma final) para introducir cláusulas que añadan información complementaria pero que no sean necesarias para que la frase tenga sentido.</p>
+</li>
+<li>
+<p>Use “OMS” para introducir cláusulas que se refieran a las personas.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="información-sobre-consejos">INFORMACIÓN sobre CONSEJOS</h3>
+<div class="paragraph">
+<p>Use LA SUGERENCIA con moderación, si es que es que se trata de hacerlo, porque nuestra política es documentar siempre la información de las mejores prácticas de forma predeterminada. Si es necesario, use CONSEJO para contener información sobre las mejores prácticas que ayude a los usuarios a utilizar un producto o a completar un paso o una tarea de forma fácil y eficaz.</p>
+</div>
+<div class="paragraph">
+<p>Consulte <a href="#admoniciones">admoniciones</a> para otras etiquetas que identifican el contenido por separado del flujo de contenido principal.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="marcas-comerciales">marcas comerciales</h3>
+<div class="paragraph">
+<p>No incluimos símbolos de marcas en la mayor parte de nuestro contenido técnico porque las declaraciones legales de nuestras plantillas son suficientes. Sin embargo, sí seguimos todas las reglas de uso cuando las utilizamos <a href="https://www.netapp.com/us/legal/netapptmlist.aspx" target="_blank" rel="noopener">"Condiciones de Marca comercial de NetApp"</a>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Use términos de marcas (con o sin el símbolo) sólo como adjetivos, nunca como sustantivos, verbos o verzales.</p>
+</li>
+<li>
+<p>No abrevie, hiphenate, o en cursiva los términos de la Marca registrada.</p>
+</li>
+<li>
+<p>No pluralice los términos de marcas comerciales. Si se requiere una forma plural, use el nombre de la Marca registrada como adjetivo que modifica un sustantivo plural.</p>
+</li>
+<li>
+<p>No utilice una forma posesiva de un término de Marca registrada. Puede utilizar la forma posesiva de nombres de empresa, como NetApp, cuando los nombres se utilizan en sentido general, en lugar de como términos de Marca comercial.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="interfaz-de-usuario">interfaz de usuario</h3>
+<div class="paragraph">
+<p>Confíe en la interfaz tanto como sea posible para guiar al usuario.</p>
+</div>
+<div class="sect3">
+<h4 id="directrices-generales">Directrices generales</h4>
+<div class="paragraph">
+<p>Nuestro estilo de documentación de las interfaces de usuario es sencillo y mínimo:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Suponga que el usuario está utilizando la interfaz mientras lee el contenido.</p>
+</li>
+<li>
+<p>Confíe en la interfaz para guiar al usuario:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>No guíe al usuario paso a paso a través de un asistente o una pantalla. Sólo llame a las cosas importantes que no son aparentes desde la interfaz.</p>
+</li>
+<li>
+<p>No incluya “haga clic en Aceptar”, “haga clic en Guardar” o “el volumen se crea” o cualquier otra cosa que resulte obvia para alguien que realice la tarea.</p>
+</li>
+<li>
+<p>Presuponga éxito. A menos que espere que una operación falle la mayoría de las veces, no documente la ruta de fallos. Supongamos que la interfaz proporciona una guía adecuada.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>No utilice "clic" en absoluto. Utilice siempre “SELECT” porque esa palabra cubre el ratón, la pulsación, el teclado y cualquier otra forma de elegir.</p>
+</li>
+<li>
+<p>Centre el contenido en un flujo de trabajo que aborde un caso de uso del cliente y haga que el usuario tenga el lugar adecuado en la interfaz para iniciar el flujo de trabajo.</p>
+</li>
+<li>
+<p>Documente siempre la mejor manera de lograr el objetivo del usuario.</p>
+</li>
+<li>
+<p>Si el flujo de trabajo requiere una decisión significativa, asegúrese de documentar una regla de decisión.</p>
+</li>
+<li>
+<p>Utilice el número mínimo de pasos necesario para la mayoría de usuarios la mayor parte del tiempo.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="nomenclatura-de-los-elementos-de-la-iu">Nomenclatura de los elementos de la IU</h4>
+<div class="paragraph">
+<p>Evite documentar el nivel de granularidad que requiera la nomenclatura de elementos de la interfaz de usuario. Confíe en la interfaz para guiar al usuario a través de los detalles de la interacción. Si debe obtener ese valor específico, asigne un nombre a la etiqueta en el elemento. Por ejemplo, “Seleccione el volumen deseado” o “Seleccione ‘utilizar volumen existente’”. No es necesario nombrar menús, botones de opción o casillas de verificación, sólo tiene que utilizar la etiqueta.</p>
+</div>
+<div class="paragraph">
+<p>Para los iconos que deben seleccionar los usuarios, utilice una imagen del icono. No intente darle un nombre. Esta regla se aplica a iconos como la flecha, lápiz, engranaje, kabob, hamburguesa, y así sucesivamente.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="representación-de-las-etiquetas-mostradas">Representación de las etiquetas mostradas</h4>
+<div class="paragraph">
+<p>Siga la ortografía y el uso de mayúsculas que utiliza la interfaz de usuario al identificar etiquetas. Si a una etiqueta le siguen tres puntos, no incluya los tres puntos al asignar nombre al objeto. ANIME a los desarrolladores a utilizar mayúsculas en el estilo de título para las etiquetas de interfaz de usuario, para que la escritura sea más sencilla.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="uso-de-capturas-de-pantalla">Uso de capturas de pantalla</h4>
+<div class="paragraph">
+<p>Una captura de pantalla ocasional (“screenshot”) ayuda a los usuarios a estar seguros de que están en el lugar correcto de una interfaz al iniciar o cambiar interfaces durante un flujo de trabajo. No utilice capturas de pantalla para mostrar qué datos desea introducir o qué valor seleccionar.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="mientras-frente-a-aunque">mientras (frente a “aunque”)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Use “Time” para indicar algo que ocurre a tiempo.</p>
+</li>
+<li>
+<p>Use “aunque” para representar una actividad que se produce casi al mismo tiempo o poco después de otra actividad.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="flujo-de-trabajo">flujo de trabajo</h3>
+<div class="paragraph">
+<p>Los usuarios leen nuestro contenido para lograr un objetivo específico. Los usuarios quieren encontrar el contenido que necesitan, lograr sus metas y ir a casa a sus familias. Nuestro trabajo no consiste en documentar productos o funciones, nuestro trabajo es documentar los objetivos del usuario. Los flujos de trabajo son la forma más directa de ayudar a los usuarios a lograr sus objetivos.</p>
+</div>
+<div class="paragraph">
+<p>Un flujo de trabajo es una serie de pasos o subtareas que describen cómo alcanzar un objetivo de usuario. El alcance de un flujo de trabajo es un objetivo completo.</p>
+</div>
+<div class="paragraph">
+<p>Por ejemplo, los pasos para crear un volumen no serían un flujo de trabajo, ya que crear un volumen en sí mismo no es un objetivo completo. Los pasos para poner el almacenamiento a disposición de un servidor ESX pueden ser un flujo de trabajo. Los pasos incluirán no solo la creación de un volumen, sino la exportación del volumen, la configuración de los permisos necesarios, la creación de una interfaz de red, etc. Los flujos de trabajo se derivan de los casos prácticos de los clientes. Un flujo de trabajo muestra sólo la mejor manera de alcanzar el objetivo.</p>
+</div>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/copyright/">© 2023 NetApp, Inc.</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Términos y condiciones</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Política de privacidad</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Política de Cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Configuración de cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a target="_self" href="javascript:netapp_mailto()">Enviar comentarios sobre esta página</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/contribute/common/svg/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/es-es/contribute/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/es-es/contribute/js/prism.js'></script>
+      <script type="text/javascript" src='/es-es/contribute/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/es-es/contribute/js/www-ntap.js'></script>
+    <script src='/es-es/contribute/js/tabbed-blocks.js'></script>
+    <script src='/es-es/contribute/js/sidebar.js'></script>
+  </body></html>
