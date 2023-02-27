@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head class="at-element-marker">
-  <title>Search results</title>
+  <title>Avisos legales</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Search results" />
+  <meta property="og:title" content="Avisos legales" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/es-es/contribute/search.html" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/contribute/legal-notices.html" />
 	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/es-es/contribute/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
@@ -17,7 +17,7 @@
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
-  <meta name="keywords" content=" "><meta name="translate" content="false"/><!-- Icons -->
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/es-es/contribute/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -78,7 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/contribute/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/contribute/js/na-search.js'></script><script src='/es-es/contribute/js/na-pagenav.js'></script><script src='/es-es/contribute/js/na-utility.js'></script>
  <!--  
   <link rel='stylesheet' href='/es-es/contribute/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/es-es/contribute/css/prism-netapp.css' type='text/css'>
@@ -164,6 +164,20 @@
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
   
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/contribute/issues/new?body=Page%3A%20[Avisos legales](https://docs.netapp.com/es-es/contribute/legal-notices.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/contribute/blob/main/legal-notices.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link" style="visibility: hidden;" ><img src="/es-es/contribute/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">EN ESTA PÁGINA</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -233,6 +247,31 @@
       </div>
 
       
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/es-es/contribute/search.html"
+          data-type="widget" 
+          data-placeholder="Buscar documentación"
+          data-no-results-found="No se encontraron resultados para {query}"
+          data-did-you-mean="Buscar {suggestion}."
+          data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?"
+          data-results-found="{hitCount} resultados encontrados"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/images/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
     </div>
   </div>
   <div class="n-property-bar__toolbar">
@@ -247,21 +286,21 @@
       </div>
 
       <ul class="custom-dropdown-menu"><li>
-          <a href="https://docs.netapp.com/es-es/contribute//search.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
+          <a href="https://docs.netapp.com/es-es/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/us-en/contribute//search.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+          <a href="https://docs.netapp.com/us-en/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">English</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ja-jp/contribute//search.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+          <a href="https://docs.netapp.com/ja-jp/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ko-kr/contribute//search.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+          <a href="https://docs.netapp.com/ko-kr/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-cn/contribute//search.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+          <a href="https://docs.netapp.com/zh-cn/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-tw/contribute//search.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+          <a href="https://docs.netapp.com/zh-tw/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/de-de/contribute//search.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+          <a href="https://docs.netapp.com/de-de/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/fr-fr/contribute//search.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+          <a href="https://docs.netapp.com/fr-fr/contribute/legal-notices.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
         </li></ul>
     </div><!-- End Language Selector -->
 
@@ -299,6 +338,8 @@
 
 
 
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
@@ -369,7 +410,7 @@
       data-pdf-exists="true" 
       data-pdf-filename="Avisos legales"
       data-li-level="1#" 
-      class=" "
+      class="  active "
     ><a class="na-navbar-padding" href="/es-es/contribute/legal-notices.html">
         Avisos legales
       </a></li></ul>
@@ -428,31 +469,68 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Search results</h1>
+  <h1 class="n-doc__component-detail-heading">Avisos legales</h1>
 </div>
 
 
-<div id="search-demo-container" class="n-property-bar__search">
-  <div id="react-search" 
-  data-search-html="/es-es/contribute/search.html"
-  data-type="page" 
-  data-placeholder="Buscar documentación" 
-  data-no-results-found="No se encontraron resultados para {query}" 
-  data-did-you-mean="Buscar {suggestion}." 
-  data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?" 
-  data-results-found="{hitCount} resultados encontrados"
-  data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-  data-error-reset="Reset Search"
-  data-sk-es-pf-indexes=""
-  data-flavor=""></div>
-  <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
-    <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
-      <title>search</title>
-      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/images/sprite.svg#search"></use>
-    </svg>
-  </button>
-</div>
+<p class="page-details">
+  
+    
+    <time datetime="2023-02-27 12:48:41 +0000">02/27/2023</time>
+    
+  
 
+<span>Colaboradores
+</span>
+
+
+</p>
+
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="derechos-de-autor">Derechos de autor</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="http://www.netapp.com/us/legal/copyright.aspx" class="bare">http://www.netapp.com/us/legal/copyright.aspx</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="marcas-comerciales">Marcas comerciales</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>NETAPP, el logotipo de NETAPP y las marcas enumeradas en la página de marcas comerciales de NetApp son marcas comerciales de NetApp, Inc. Los demás nombres de empresas y productos son marcas comerciales de sus respectivos propietarios.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.netapp.com/us/legal/netapptmlist.aspx" class="bare">http://www.netapp.com/us/legal/netapptmlist.aspx</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="estadounidenses">Estadounidenses</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Puede encontrar una lista actual de las patentes propiedad de NetApp en:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.netapp.com/us/media/patents-page.pdf" class="bare">https://www.netapp.com/us/media/patents-page.pdf</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="política-de-privacidad">Política de privacidad</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://www.netapp.com/us/legal/privacypolicy/index.aspx" class="bare">https://www.netapp.com/us/legal/privacypolicy/index.aspx</a></p>
+</div>
+</div>
+</div>
 
     </article>
     <!-- Page Container -->
@@ -595,29 +673,4 @@
     </script>
     <script src='/es-es/contribute/js/tabbed-blocks.js'></script>
     <script src='/es-es/contribute/js/sidebar.js'></script>
-  </body><script>
-    /*
-      if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(getParameter(window.location.search, 'q'));
-        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
-      }
-
-      function getParameter(searchString,param) {
-        var params = searchString.split('?&');
-        for(var i=0;i<params.length;i++) {
-          var paramIndex = params[i].indexOf(param+"=");
-          if(paramIndex != -1) {
-            return params[i].substring(paramIndex+param.length+1);
-          }
-        }
-
-        return "";
-      }
-
-      function hasParameter(searchString,param) {
-        searchString = searchString || "";
-        param = param || "";
-        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
-      }
-      */
-  </script></html>
+  </body></html>

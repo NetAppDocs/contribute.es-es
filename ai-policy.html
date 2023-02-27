@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head class="at-element-marker">
-  <title>Search results</title>
+  <title>Política que prohíbe el uso del contenido generado por IA en la documentación técnica de NetApp</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Search results" />
+  <meta property="og:title" content="Política que prohíbe el uso del contenido generado por IA en la documentación técnica de NetApp" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/es-es/contribute/search.html" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/contribute/ai-policy.html" />
 	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/es-es/contribute/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
@@ -17,7 +17,7 @@
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
-  <meta name="keywords" content=" "><meta name="translate" content="false"/><!-- Icons -->
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/es-es/contribute/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -78,7 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/contribute/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/contribute/js/na-search.js'></script><script src='/es-es/contribute/js/na-pagenav.js'></script><script src='/es-es/contribute/js/na-utility.js'></script>
  <!--  
   <link rel='stylesheet' href='/es-es/contribute/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/es-es/contribute/css/prism-netapp.css' type='text/css'>
@@ -164,6 +164,20 @@
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
   
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/contribute/issues/new?body=Page%3A%20[Política que prohíbe el uso del contenido generado por IA en la documentación técnica de NetApp](https://docs.netapp.com/es-es/contribute/ai-policy.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/contribute/blob/main/ai-policy.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/contribute/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link" style="visibility: hidden;" ><img src="/es-es/contribute/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">EN ESTA PÁGINA</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -233,6 +247,31 @@
       </div>
 
       
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/es-es/contribute/search.html"
+          data-type="widget" 
+          data-placeholder="Buscar documentación"
+          data-no-results-found="No se encontraron resultados para {query}"
+          data-did-you-mean="Buscar {suggestion}."
+          data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?"
+          data-results-found="{hitCount} resultados encontrados"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/images/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
     </div>
   </div>
   <div class="n-property-bar__toolbar">
@@ -247,21 +286,21 @@
       </div>
 
       <ul class="custom-dropdown-menu"><li>
-          <a href="https://docs.netapp.com/es-es/contribute//search.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
+          <a href="https://docs.netapp.com/es-es/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/us-en/contribute//search.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+          <a href="https://docs.netapp.com/us-en/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">English</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ja-jp/contribute//search.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+          <a href="https://docs.netapp.com/ja-jp/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ko-kr/contribute//search.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+          <a href="https://docs.netapp.com/ko-kr/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-cn/contribute//search.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+          <a href="https://docs.netapp.com/zh-cn/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-tw/contribute//search.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+          <a href="https://docs.netapp.com/zh-tw/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/de-de/contribute//search.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+          <a href="https://docs.netapp.com/de-de/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/fr-fr/contribute//search.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+          <a href="https://docs.netapp.com/fr-fr/contribute/ai-policy.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
         </li></ul>
     </div><!-- End Language Selector -->
 
@@ -297,6 +336,8 @@
 
 
 
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
 
 
 
@@ -362,7 +403,7 @@
       data-pdf-exists="true" 
       data-pdf-filename="Política sobre contenido generado por la IA"
       data-li-level="1#" 
-      class=" "
+      class="  active "
     ><a class="na-navbar-padding" href="/es-es/contribute/ai-policy.html">
         Política sobre contenido generado por la IA
       </a></li><li 
@@ -428,31 +469,58 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Search results</h1>
+  <h1 class="n-doc__component-detail-heading">Política que prohíbe el uso del contenido generado por IA en la documentación técnica de NetApp</h1>
 </div>
 
 
-<div id="search-demo-container" class="n-property-bar__search">
-  <div id="react-search" 
-  data-search-html="/es-es/contribute/search.html"
-  data-type="page" 
-  data-placeholder="Buscar documentación" 
-  data-no-results-found="No se encontraron resultados para {query}" 
-  data-did-you-mean="Buscar {suggestion}." 
-  data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?" 
-  data-results-found="{hitCount} resultados encontrados"
-  data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-  data-error-reset="Reset Search"
-  data-sk-es-pf-indexes=""
-  data-flavor=""></div>
-  <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
-    <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
-      <title>search</title>
-      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/contribute/images/sprite.svg#search"></use>
-    </svg>
-  </button>
-</div>
+<p class="page-details">
+  
+    
+    <time datetime="2023-02-27 12:48:41 +0000">02/27/2023</time>
+    
+  
 
+<span>Colaboradores
+</span>
+
+
+</p>
+
+<div class="paragraph lead">
+<p>En NetApp, valoramos la creatividad y los conocimientos de nuestros empleados, contratistas y partners a la hora de crear, publicar y mantener una documentación técnica precisa, relevante y útil para nuestros clientes. Creemos que el uso del contenido generado por IA puede comprometer estos valores y socavar la integridad y precisión de nuestra documentación. Por tanto, la política de NetApp es prohibir el uso de contenido generado por IA en toda la documentación técnica publicada en docs.netapp.com. Tenga en cuenta que esta política es similar y amplía la política de NetApp que prohíbe el uso de modelos lingüísticos para escribir código en los productos que vende.</p>
+</div>
+<div class="paragraph">
+<p>Esperamos que todos los colaboradores de NetAppDocs cumplan la siguiente política:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Prohibición del uso de contenido generado por IA:</strong> no permitimos el uso de contenido generado por IA en ninguna documentación técnica que creamos para nuestros clientes. Esto incluye materiales escritos, gráficos, multimedia u otros materiales que se publican en netapp.com. Todos los contenidos publicados en docs.netapp.com deben ser creados por nuestros empleados, contratistas o socios utilizando su propia creatividad, experiencia y experiencia.</p>
+</li>
+<li>
+<p><strong>Educación y capacitación:</strong> brindamos formación y educación regular a nuestros empleados, contratistas y socios sobre el uso del contenido generado por IA y las razones por las que no lo permitimos en nuestra documentación técnica. Animamos a todas las personas asociadas con nuestra empresa a mantenerse informado de los últimos avances en el contenido generado por la IA y de sus implicaciones en la documentación técnica de NetApp.</p>
+</li>
+<li>
+<p><strong>Cumplimiento e informes:</strong> todos los empleados, contratistas y socios son responsables del cumplimiento de esta política. Cualquier infracción o sospecha de una infracción de esta política debe notificarse inmediatamente al departamento legal de NetApp para su investigación.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Los colaboradores de NetAppDocs deben tener en cuenta lo siguiente:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>No utilice la IA para generar o editar documentación técnica de productos, versiones de productos o funciones que ya no se han publicado anteriormente.</p>
+</li>
+<li>
+<p>Los derechos de autor de la nueva documentación técnica deben permanecer en NetApp y no se deben compartir con AIS fuera de NetApp antes de las fechas de lanzamiento oficiales del producto ni de la publicación correspondiente de la documentación técnica relacionada.</p>
+</li>
+<li>
+<p>No envíe documentación confidencial, nuevos contenidos ni cualquier contenido escrito después de 2021, incluidas las URL, a AI (ChatGPT o cualquier otra herramienta). Cualquier información que se introduzca en ChatGPT se convierte en parte de su conjunto de datos de entrenamiento, que a su vez se convierte en propiedad de OpenAI y puede ser utilizada por ellos y sus usuarios. Si bien gran parte de estos datos son accesibles públicamente, no queremos entrenar el modelo en nuestra propia IP.</p>
+</li>
+</ul>
+</div>
 
     </article>
     <!-- Page Container -->
@@ -595,29 +663,4 @@
     </script>
     <script src='/es-es/contribute/js/tabbed-blocks.js'></script>
     <script src='/es-es/contribute/js/sidebar.js'></script>
-  </body><script>
-    /*
-      if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(getParameter(window.location.search, 'q'));
-        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
-      }
-
-      function getParameter(searchString,param) {
-        var params = searchString.split('?&');
-        for(var i=0;i<params.length;i++) {
-          var paramIndex = params[i].indexOf(param+"=");
-          if(paramIndex != -1) {
-            return params[i].substring(paramIndex+param.length+1);
-          }
-        }
-
-        return "";
-      }
-
-      function hasParameter(searchString,param) {
-        searchString = searchString || "";
-        param = param || "";
-        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
-      }
-      */
-  </script></html>
+  </body></html>
