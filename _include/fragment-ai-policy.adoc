@@ -1,0 +1,19 @@
+= 
+:allow-uri-read: 
+
+
+En NetApp, valoramos la creatividad y los conocimientos de nuestros empleados, contratistas y partners a la hora de crear, publicar y mantener una documentación técnica precisa, relevante y útil para nuestros clientes. Creemos que el uso del contenido generado por IA puede comprometer estos valores y socavar la integridad y precisión de nuestra documentación. Por tanto, la política de NetApp es prohibir el uso de contenido generado por IA en toda la documentación técnica publicada en docs.netapp.com. Tenga en cuenta que esta política es similar y amplía la política de NetApp que prohíbe el uso de modelos lingüísticos para escribir código en los productos que vende.
+
+Esperamos que todos los colaboradores de NetAppDocs cumplan la siguiente política:
+
+. *Prohibición del uso de contenido generado por IA:* no permitimos el uso de contenido generado por IA en ninguna documentación técnica que creamos para nuestros clientes. Esto incluye materiales escritos, gráficos, multimedia u otros materiales que se publican en netapp.com. Todos los contenidos publicados en docs.netapp.com deben ser creados por nuestros empleados, contratistas o socios utilizando su propia creatividad, experiencia y experiencia.
+. *Educación y capacitación:* brindamos formación y educación regular a nuestros empleados, contratistas y socios sobre el uso del contenido generado por IA y las razones por las que no lo permitimos en nuestra documentación técnica. Animamos a todas las personas asociadas con nuestra empresa a mantenerse informado de los últimos avances en el contenido generado por la IA y de sus implicaciones en la documentación técnica de NetApp.
+. *Cumplimiento e informes:* todos los empleados, contratistas y socios son responsables del cumplimiento de esta política. Cualquier infracción o sospecha de una infracción de esta política debe notificarse inmediatamente al departamento legal de NetApp para su investigación.
+
+
+Los colaboradores de NetAppDocs deben tener en cuenta lo siguiente:
+
+* No utilice la IA para generar o editar documentación técnica de productos, versiones de productos o funciones que ya no se han publicado anteriormente.
+* Los derechos de autor de la nueva documentación técnica deben permanecer en NetApp y no se deben compartir con AIS fuera de NetApp antes de las fechas de lanzamiento oficiales del producto ni de la publicación correspondiente de la documentación técnica relacionada.
+* No envíe documentación confidencial, nuevos contenidos ni cualquier contenido escrito después de 2021, incluidas las URL, a AI (ChatGPT o cualquier otra herramienta). Cualquier información que se introduzca en ChatGPT se convierte en parte de su conjunto de datos de entrenamiento, que a su vez se convierte en propiedad de OpenAI y puede ser utilizada por ellos y sus usuarios. Si bien gran parte de estos datos son accesibles públicamente, no queremos entrenar el modelo en nuestra propia IP.
+
