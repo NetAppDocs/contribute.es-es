@@ -48,9 +48,9 @@ Si el responsable del contenido está de acuerdo en que su sugerencia puede mejo
 TIP: Todos los comentarios que proporcione estarán visibles públicamente. Cualquiera que navegue hasta los problemas en GitHub repo puede ver sus comentarios.
 
 .Pasos
-. Si todavía no tiene una cuenta GitHub, https://["cree una desde github.com"^].
+. Si todavía no tiene una cuenta GitHub, https://github.com/join["cree una desde github.com"^].
 . Inicie sesión en su cuenta de GitHub.
-. Con el explorador Web, abra la página en https://["docs.netapp.com"] eso está relacionado con sus comentarios.
+. Con el explorador Web, abra la página en https://docs.netapp.com["docs.netapp.com"] eso está relacionado con sus comentarios.
 . En el lado derecho de la página, haga clic en *solicitar cambios de documentos*.
 +
 image:screenshot-request-doc-changes.png["Solicitar cambios en el documento"]
@@ -90,9 +90,9 @@ Si necesita ayuda con nuestro estilo de escritura o sintaxis de origen, puede ut
 
 
 .Pasos
-. Si todavía no tiene una cuenta GitHub, https://["cree una desde github.com"^].
+. Si todavía no tiene una cuenta GitHub, https://github.com/join["cree una desde github.com"^].
 . Inicie sesión en su cuenta de GitHub.
-. Con el explorador Web, abra la página en https://["docs.netapp.com"] que desea editar.
+. Con el explorador Web, abra la página en https://docs.netapp.com["docs.netapp.com"] que desea editar.
 . En el lado derecho de la página, haga clic en *Editar esta página*.
 +
 image:screenshot-edit-this-page.png["Edite esta página"]

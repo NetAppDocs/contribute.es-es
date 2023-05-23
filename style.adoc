@@ -108,8 +108,8 @@ Comience con lo que es importante para el usuario. Averigüe qué es lo que el u
 La mayoría de las personas son estudiantes visuales. Utilice vídeos, diagramas y capturas de pantalla para mejorar el aprendizaje. Los elementos visuales también ayudan a dividir bloques de texto.
 
 .Ejemplos
-* https://["Ejemplo #1"^]
-* https://["Ejemplo #2"^]
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Ejemplo #1"^]
+* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["Ejemplo #2"^]
 
 
 Consulte también <<gráficos>>.
@@ -121,8 +121,8 @@ Consulte también <<gráficos>>.
 Utilice encabezados, listas y tablas para ayudar a los usuarios a buscar lo que desean.
 
 .Ejemplos
-* https://["Ejemplo #1"^]
-* https://["Ejemplo #2"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Ejemplo #1"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html["Ejemplo #2"^]
 
 
 
@@ -132,8 +132,8 @@ Utilice encabezados, listas y tablas para ayudar a los usuarios a buscar lo que 
 Si está describiendo cómo completar una serie de tareas, póngela todo en una página de una serie de secciones, incluida información conceptual y basada en referencias. No divida su página en varias mini páginas, lo que requiere demasiado clic. Al mismo tiempo, no cree páginas largas e intimidantes. Use su mejor juicio para decidir cuándo una página es demasiado larga.
 
 .Ejemplos
-* https://["Ejemplo #1"^]
-* https://["Ejemplo #2"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Ejemplo #1"^]
+* https://docs.netapp.com/us-en/occm/concept_ha.html["Ejemplo #2"^]
 
 
 
@@ -200,9 +200,9 @@ Utilizar voz pasiva cuando:
 
 Para convenciones adicionales de verbo, consulte:
 
-* https://["Guía de estilo de escritura de Microsoft"^]
-* https://["Manual de estilo de Chicago"^]
-* https://["Merriam-Webster Diccionario en línea"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^]
+* https://www.chicagomanualofstyle.org/home.html["Manual de estilo de Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Diccionario en línea"^]
 
 
 
@@ -375,9 +375,9 @@ Evalúe continuamente el contenido para oportunidades de incluir ilustraciones �
 
 Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:
 
-* https://["Guía de estilo de escritura de Microsoft"^]
-* https://["Manual de estilo de Chicago"^]
-* https://["Merriam-Webster Diccionario en línea"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^]
+* https://www.chicagomanualofstyle.org/home.html["Manual de estilo de Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Diccionario en línea"^]
 
 
 
@@ -494,8 +494,8 @@ Consulte <<admoniciones>> para otras etiquetas que identifican el contenido por 
 * Si una frase contiene una mezcla de números menores de 10 y mayores de 10, utilice números árabes para todos los números.
 * Para conocer las convenciones de números adicionales, consulte:
 +
-** https://["Guía de estilo de escritura de Microsoft"^]
-** https://["Manual de estilo de Chicago"^]
+** https://docs.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^]
+** https://www.chicagomanualofstyle.org/home.html["Manual de estilo de Chicago"^]
 
 
 
@@ -548,9 +548,9 @@ Simplifique. En general, mientras más puntuación se incluya en una frase, más
 * Limite el uso de punto y coma.
 * Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:
 +
-** https://["Guía de estilo de escritura de Microsoft"^]
-** https://["Manual de estilo de Chicago"^]
-** https://["Merriam-Webster Diccionario en línea"^]
+** https://docs.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^]
+** https://www.chicagomanualofstyle.org/home.html["Manual de estilo de Chicago"^]
+** https://www.merriam-webster.com/["Merriam-Webster Diccionario en línea"^]
 
 
 
@@ -567,9 +567,9 @@ Use “since” para indicar un paso de tiempo. No utilice "desde" para decir "p
 
 Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:
 
-* https://["Guía de estilo de escritura de Microsoft"^]
-* https://["Manual de estilo de Chicago"^]
-* https://["Merriam-Webster Diccionario en línea"^]
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^]
+* https://www.chicagomanualofstyle.org/home.html["Manual de estilo de Chicago"^]
+* https://www.merriam-webster.com/["Merriam-Webster Diccionario en línea"^]
 
 
 
@@ -594,7 +594,7 @@ Consulte <<admoniciones>> para otras etiquetas que identifican el contenido por 
 
 === marcas comerciales
 
-No incluimos símbolos de marcas en la mayor parte de nuestro contenido técnico porque las declaraciones legales de nuestras plantillas son suficientes. Sin embargo, sí seguimos todas las reglas de uso cuando las utilizamos https://["Condiciones de Marca comercial de NetApp"^]:
+No incluimos símbolos de marcas en la mayor parte de nuestro contenido técnico porque las declaraciones legales de nuestras plantillas son suficientes. Sin embargo, sí seguimos todas las reglas de uso cuando las utilizamos https://www.netapp.com/us/legal/netapptmlist.aspx["Condiciones de Marca comercial de NetApp"^]:
 
 * Use términos de marcas (con o sin el símbolo) sólo como adjetivos, nunca como sustantivos, verbos o verzales.
 * No abrevie, hiphenate, o en cursiva los términos de la Marca registrada.
