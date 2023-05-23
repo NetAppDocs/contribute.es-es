@@ -505,4 +505,12 @@
   <block id="2518fdb0845f92d5d9fe4aca9f03f286" category="list-text">Se espera que todos los empleados, contratistas y socios cumplan con la política. Las violaciones repetidas pueden resultar en privilegios de autor suspendidos.</block>
   <block id="ce9532327a3742b7a0020c494ee0ef96" category="list-text">Todas las tecnologías de generación de contenido basadas en IA integradas en el software que ha instalado en su equipo de trabajo, incluidas aquellas como Microsoft 365 Co-Pilot, envían sus datos a la empresa que aloja la tecnología de asistencia. No solicite dicha tecnología con contenido confidencial de la empresa, incluidas, entre otras, las especificaciones para las características de producto no publicadas.</block>
   <block id="a82c75ffafc08b7d85426b8da8626a7a" category="list-text">No utilice tecnologías de IA públicas para generar o editar documentación técnica para **productos, versiones de productos o características no publicados previamente**.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
