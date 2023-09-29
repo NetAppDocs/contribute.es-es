@@ -33,7 +33,7 @@ Puede contribuir a nuestros documentos utilizando las siguientes opciones:
 
 
 
-El siguiente vídeo ofrece una breve descripción general de estas dos opciones:
+El siguiente vídeo ofrece una breve descripción general de estas dos opciones.
 
 .Visión general de Contribuir a docs.netapp.com
 video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto]
@@ -59,7 +59,7 @@ TIP: Todos los comentarios que proporcione estarán visibles públicamente. Cual
 image:screenshot-request-doc-changes.png["Solicitar cambios en el documento"]
 
 +
-Se abre una nueva ficha del navegador con un formulario que puede utilizar para proporcionar detalles a nuestro equipo de documentación.
+Se abre una nueva pestaña del navegador con un formulario de GitHub que puede utilizar para proporcionar detalles a nuestro equipo de documentos.
 
 . Introduzca un título, un resumen y confirme que el problema no contiene información confidencial.
 +
@@ -99,6 +99,9 @@ Si necesita ayuda con nuestro estilo de escritura o sintaxis de origen, puede ut
 . En la parte superior de la página, selecciona *Sugerir cambios > Editar esta página*.
 +
 image:screenshot-edit-this-page.png["Edite esta página"]
+
++
+Se abre una nueva pestaña del navegador que le llevará al archivo del repositorio de GitHub para el sitio de documentación.
 
 . Seleccione el icono de lápiz.
 +
