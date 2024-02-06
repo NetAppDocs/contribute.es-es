@@ -3,15 +3,12 @@ sidebar: sidebar
 permalink: style.html 
 ---
 = Guía de estilos para documentos de NetApp
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -310,44 +307,34 @@ Consulte <<admoniciones>> para otras etiquetas que identifican el contenido por 
 
 Las contracciones refuerzan un tono conversacional, y muchas contracciones son fáciles de entender y traducir.
 
-* Utilice contracciones como estas, que son fáciles de entender y traducir:
-+
-|===
+.Utilice contracciones como estas, que son fáciles de entender y traducir:
+* no lo es
+* no puede
+* no lo hizo
+* no lo hace
+* no lo hagas
+* no es
+* sí
+* vamos
+* no lo era
+* por ahora
+* no lo fueron
+* lo es
 
 
-| no lo es | lo es 
+.No utilice estas contracciones cuando se requiera un tiempo futuro:
+* lo haremos
+* no lo hará
+* lo hará
 
 
-| no es | por ahora 
-
-
-| no lo era | sí 
-
-
-| no lo fueron | vamos 
-
-
-| no lo hizo | lo haremos (si se requiere tiempo futuro) 
-
-
-| no lo hace | no lo hará (si se requiere tiempo futuro) 
-
-
-| no lo hagas | usted (si se requiere tiempo futuro) 
-|===
-* No utilice contracciones como estas, que son difíciles de entender y traducir:
-+
-|===
-
-
-| lo habría hecho | debería haber 
-
-
-| no lo habría hecho | no debería haber 
-
-
-| podría haberlo hecho | no podía haber 
-|===
+.No utilice contracciones como estas, que son difíciles de entender y traducir:
+* podría haberlo hecho
+* no podía haber
+* debería haber
+* no debería haber
+* lo habría hecho
+* no lo habría hecho
 
 
 
