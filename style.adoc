@@ -382,6 +382,12 @@ Siga estas directrices para escribir para una audiencia global:
 
 
 
+=== acrónimos y abreviaturas
+
+Utilice acrónimos y abreviaturas bien conocidos para la familiaridad, pero evite las oscuras que podrían afectar negativamente la claridad y la findabilidad. Para convenciones adicionales para acrónimos y abreviaturas, consulte la https://learn.microsoft.com/en-us/style-guide/welcome/["Guía de estilo de escritura de Microsoft"^].
+
+
+
 === voz activa (frente a voz pasiva)
 
 Consulte <<Escribir activamente>>.
@@ -390,20 +396,21 @@ Consulte <<Escribir activamente>>.
 
 === admoniciones
 
-Utilice las siguientes etiquetas para identificar el contenido por separado del flujo de contenido principal:
+Las amonestaciones son una herramienta poderosa cuando se usan correctamente. Pueden llamar la atención sobre información importante, proporcionar consejos útiles o advertir a los usuarios sobre peligros potenciales. Cuando se usan en exceso, pierden su impacto y pueden llevar a la fatiga del usuario. Aquí hay algunas pautas para asegurar el uso efectivo de las amonestaciones.
 
-* NOTA
-+
-Utilice LA NOTA para obtener información importante que debe ser distinta del resto del texto. Evite utilizar LA NOTA para obtener información que no sea necesaria para que los usuarios aprendan sobre la tarea o la completen.
+Utilice las siguientes etiquetas para separar las admoniciones del flujo de contenido principal:
 
-* CONSEJO
-+
-Use LA SUGERENCIA con moderación, si es que es que se trata de hacerlo, porque nuestra política es documentar siempre la información de las mejores prácticas de forma predeterminada. Si es necesario, use CONSEJO para contener información sobre las mejores prácticas que ayude a los usuarios a utilizar un producto o a completar un paso o una tarea de forma fácil y eficaz.
+* NOTA Utilice LA NOTA para resaltar información importante que debe sobresalir del resto del texto. Sin embargo, evita usar NOTE para obtener información que no sea esencial para que los usuarios entiendan o completen una tarea. El propósito de una NOTA es llamar la atención del lector sobre puntos críticos que de otra manera podrían pasar por alto.
+* Los consejos deben usarse con moderación, si es que lo hacemos, ya que nuestra política consiste en documentar la información de las mejores prácticas por defecto. Si es necesario, utilice LA SUGERENCIA para resaltar la información de mejores prácticas que ayude a los usuarios a usar un producto o completar un paso o tarea de forma más fácil y eficiente. Un CONSEJO debe proporcionar consejos útiles o atajos que pueden mejorar la experiencia del usuario.
+* PRECAUCIÓN Utilice PRECAUCIÓN para advertir a los usuarios sobre condiciones o acciones que pueden conducir a resultados no deseados, incluyendo lesiones personales o daños al equipo. Se debe TENER PRECAUCIÓN para llamar la atención sobre los riesgos potenciales que el usuario debe evitar para evitar daños o interrupciones.
 
-* PRECAUCIÓN
-+
-Tenga cuidado al advertir a los usuarios sobre condiciones o procedimientos que pueden causar lesiones personales que no sean letales o extremadamente peligrosas.
 
+.Directrices adicionales
+* Utilice sólo admoniciones admitidas. No se admite ningún otro tipo de formato.
+* Evite el uso excesivo de amonestaciones. El uso excesivo puede hacer que los usuarios se salten estas secciones importantes porque las consideran el «cajón basura» de nuestros documentos.
+* Como regla general, limite el número de amonestaciones a un máximo de 3 por página.
+* Proporcionar información clara y concisa dentro de la admonición. El mensaje debe ser breve y al punto, permitiendo a los usuarios entender rápidamente la importancia de la información proporcionada.
+* Evite las admoniciones de AsciiDoc en una tabla. Si el contenido debe identificarse como una nota, sugerencia o precaución, utilice Nota:, Consejo:, o Precaución: como introducción en línea del texto.
 
 
 
