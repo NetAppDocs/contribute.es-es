@@ -554,7 +554,8 @@ Consulte los artículos de la base de conocimientos de NetApp (NetApp Knowledgeb
 Las listas de información suelen ser más fáciles de escanear y absorber que los bloques de texto. Considere formas de simplificar la información compleja presentándola en forma de lista. A continuación se indican algunas directrices generales, pero use su criterio:
 
 * Asegúrese de que el motivo de la lista está claro. Introduzca la lista con una frase completa, un fragmento de frase con dos puntos o un encabezado.
-* Las listas deben tener entre dos y siete entradas. En general, cuanto más corta sea la información de cada entrada, más entradas podrá agregar mientras mantiene la lista en un estado de exploración.
+* Cuando utilice una lista dentro de una lista, limite la estructura a dos niveles como máximo de profundidad para mantener la claridad y la legibilidad. Si te encuentras con que necesitas más niveles, considera reorganizar el contenido para que sea más fácil para los usuarios navegar y entender.
+* Cualquier lista, incluidas las listas anidadas, debe tener entre dos y siete entradas. En general, cuanto más corta sea la información de cada entrada, más entradas podrá agregar mientras mantiene la lista en un estado de exploración. Si una lista tiene varias entradas que contienen listas anidadas, considere el uso de secciones o títulos de bloque para dividir todo el elemento en fragmentos más consumibles.
 * Las entradas de lista deben ser lo más explorables posible. Evite bloques de texto que se puedan escanear para mantener las entradas de la lista.
 * Las entradas de la lista deben comenzar con una letra mayúscula, y las entradas de la lista deben ser gramaticalmente paralelas. Por ejemplo, comience cada entrada con un sustantivo o un verbo:
 +
