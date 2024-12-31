@@ -398,17 +398,31 @@ Consulte <<Escribir activamente>>.
 
 Las amonestaciones son una herramienta poderosa cuando se usan correctamente. Pueden llamar la atención sobre información importante, proporcionar consejos útiles o advertir a los usuarios sobre peligros potenciales. Cuando se usan en exceso, pierden su impacto y pueden llevar a la fatiga del usuario. Aquí hay algunas pautas para asegurar el uso efectivo de las amonestaciones.
 
-Utilice las siguientes etiquetas para separar las admoniciones del flujo de contenido principal:
+.Admoniciones estándar
+Tres admoniciones estándar utilizan etiquetas personalizadas. Las etiquetas son NOTA, TIP y PRECAUCIÓN. Estas tres admoniciones estándar tienen un formato distinto al texto normal, y sus etiquetas siempre están escritas en mayúsculas en la fuente de AsciiDoc.
 
 * NOTA Utilice LA NOTA para resaltar información importante que debe sobresalir del resto del texto. Sin embargo, evita usar NOTE para obtener información que no sea esencial para que los usuarios entiendan o completen una tarea. El propósito de una NOTA es llamar la atención del lector sobre puntos críticos que de otra manera podrían pasar por alto.
-* Los consejos deben usarse con moderación, si es que lo hacemos, ya que nuestra política consiste en documentar la información de las mejores prácticas por defecto. Si es necesario, utilice LA SUGERENCIA para resaltar la información de mejores prácticas que ayude a los usuarios a usar un producto o completar un paso o tarea de forma más fácil y eficiente. Un CONSEJO debe proporcionar consejos útiles o atajos que pueden mejorar la experiencia del usuario.
+* Consejo Utilice EL CONSEJO para proporcionar consejos útiles o accesos directos que pueden mejorar la experiencia del usuario. Por ejemplo, un CONSEJO puede ayudar a un usuario a completar un paso o tarea de forma más fácil y eficiente. Un CONSEJO debe usarse con moderación, si es que lo hacemos, ya que nuestra política es documentar la mejor manera de completar una tarea por defecto.
 * PRECAUCIÓN Utilice PRECAUCIÓN para advertir a los usuarios sobre condiciones o acciones que pueden conducir a resultados no deseados, incluyendo lesiones personales o daños al equipo. Se debe TENER PRECAUCIÓN para llamar la atención sobre los riesgos potenciales que el usuario debe evitar para evitar daños o interrupciones.
-* PRÁCTICA recomendada Utilice LAS MEJORES PRÁCTICAS para resaltar formas óptimas de completar tareas o usar un producto. No son meras sugerencias, sino estrategias que han sido validadas por expertos o estándares de la industria.
-+
-** *¿Qué hace una MEJOR PRÁCTICA?* Se trata de una estrategia práctica y específica para tareas que ofrece ventajas claras y está respaldada por fuentes fiables.
-** *¿Cuándo puedo usarlos?* Puede utilizar LAS MEJORES PRÁCTICAS para todos los tipos de contenido y todas las audiencias. Como CONSEJOS, úsalos con moderación para mantener su significado.
-** * ¿Cómo los formateo?* Presente LAS MEJORES PRÁCTICAS en un formato coherente y fácil de usar. Esto podría ser una lista de viñetas, una lista numerada o un párrafo, dependiendo del contexto.
 
+
+.Admonición a las mejores prácticas
+La admonición Best Practice no es una etiqueta de admonición personalizada, sino que se puede utilizar como una convención de formato independiente. Utilice la práctica recomendada para resaltar formas óptimas de completar tareas o utilizar un producto. No son meras sugerencias, sino estrategias que han sido validadas por expertos o estándares de la industria.
+
+* *¿Qué hace una mejor práctica?*
++
+Se trata de una estrategia práctica y específica para tareas que ofrece ventajas claras y está respaldada por fuentes fiables.
+
+* * ¿Cuándo puedo usar las mejores prácticas?*
++
+Puede utilizar las mejores prácticas para todos los tipos de contenido y todos los públicos. Como CONSEJOS, úsalos con moderación para mantener su significado.
+
+* * ¿Cómo formateo las mejores prácticas?*
++
+Para utilizar el formato de mejores prácticas, aplique mayúsculas de estilo de oración, negrita el término Best Practice, seguido de dos puntos y un espacio.
+
++
+Presente las mejores prácticas en un formato coherente y fácil de usar. Esto podría ser una lista con viñetas, una lista numerada o un párrafo, dependiendo del contexto. Por ejemplo, *Best Practice*: Pruebe siempre los cambios de configuración en un entorno de estadificación antes de aplicarlos a la producción.
 
 
 
