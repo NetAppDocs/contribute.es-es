@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: ai-policy.html 
+keywords: AI, artificial intelligence, generated content, NetApp, technical documentation 
+summary: La política de NetApp es prohibir la publicación de contenido generado por IA que no haya sido verificado ni validado por una persona. 
 ---
 = Política que prohíbe el uso del contenido generado por IA en la documentación técnica de NetApp
 :hardbreaks:

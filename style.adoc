@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: style.html 
+keywords: style, netapp docs style, netapp docs writing style, voice 
+summary: Nuestro estilo es conversacional y empático, pero nos mantenemos profesionales y llegar al punto. 
 ---
 = Guía de estilos para documentos de NetApp
 :hardbreaks:
@@ -455,6 +457,12 @@ Presente las mejores prácticas en un formato coherente y fácil de usar. Esto p
 === y/o.
 
 Elija el término más preciso si hay uno. Si ninguno de los términos es más preciso que el otro, use “AND/OR”.
+
+
+
+=== API
+
+Una interfaz de programación de aplicaciones (API) se refiere a una interfaz única que proporciona acceso a un producto o servicio específico. Dentro de una API de producto grande, utilice el término _API_ para hacer referencia a cada conjunto de puntos finales asociados a un tipo de recurso o componente. Cuando haga referencia a varias interfaces distintas, utilice el término _APIs_.
 
 
 

@@ -1,8 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: index.html 
+keywords: contribute, GitHub, docs, documentation, NetApp 
+summary: Ayúdenos a mejorar la documentación de productos de NetApp mediante mejoras, correcciones y sugerencias. 
 ---
-= Contribuya al contenido técnico de NetApp en GitHub
+= Contribuir a la documentación de productos de NetApp en GitHub
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
