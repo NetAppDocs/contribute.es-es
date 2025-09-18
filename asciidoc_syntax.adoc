@@ -483,9 +483,6 @@ curl -s https:///v1/ \
 Si tiene un fragmento de contenido que se repite en diferentes páginas, puede escribirlo fácilmente una vez y volver a utilizarlo en esas páginas. La reutilización es posible desde el mismo repositorio y entre repositorios. A continuación se explica su funcionamiento.
 
 . Cree una carpeta en su repositorio denominada _include
-+
-https://github.com/NetAppDocs/cloud-tiering["Por ejemplo, echemos un vistazo al repositorio de organización en niveles en cloud"^].
-
 . Agregue un archivo .adoc en esa carpeta que incluya el contenido que desea reutilizar.
 +
 Puede ser una frase, una lista, una tabla, una o más secciones, etc. No incluya ningún otro elemento en el archivo, sin encabezados ni nada.
@@ -503,12 +500,8 @@ Por ejemplo:
 +
  include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
-Por ejemplo:
-
-+
- include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
-
-
 ¡Eso es todo!
+
+
 
 Si desea obtener más información sobre la directiva include, https://asciidoctor.org/docs/user-manual/#include-directive["Consulte el Manual del usuario de AsciiDoctor"^].

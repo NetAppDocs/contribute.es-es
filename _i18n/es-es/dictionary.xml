@@ -1,136 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="88c3dc92387f534cb0d262ec1e8f1bb2" category="doc">Guía de estilos para documentos de NetApp</block>
-  <block id="e2d0dae9d76032e451e39d8e99304566" category="paragraph">Nuestro estilo es conversacional y empático, pero nos mantenemos profesionales y llegar al punto. Siga estas directrices al escribir contenido para documentos de NetApp.</block>
-  <block id="99cadf0b9e522abf385884bbba7ba292" category="section-title">Escribir en conversacionalmente</block>
-  <block id="14162950f27b607637ed0c3681ea338c" category="cell">Demasiado formal</block>
-  <block id="706ee9fc99a081223cc401929741a52a" category="cell">Demasiado informal</block>
-  <block id="e3d632fe289ec28c552b21075d04a8fc" category="cell">Nuestro estilo</block>
-  <block id="7a8e71d910db3b72c9392f6de16c626b" category="cell">Cuando se inicie el asistente de configuración, siga las instrucciones del asistente para configurar el nodo y unirlo al clúster. Los siguientes pasos le guian por los pasos del asistente.</block>
-  <block id="1a06075f56c7d5e9e311fe51b475db66" category="cell">Aparece el asistente de configuración (casi como magia) para guiarle por el sencillo proceso de configurar el nodo y unirlo al clúster.</block>
-  <block id="8792ee5d1e83c1d33d5410776949cde4" category="cell">Siga las instrucciones del asistente de configuración para configurar el nodo y unirlo al clúster.</block>
-  <block id="426b4a995ccf198bbc6bebc54c0983a8" category="cell">Puede elegir entre varios tipos de formatos de contenido para instalar y configurar el nuevo sistema. Cada tipo de formato proporciona instrucciones completas. Elija el tipo de formato que más se ajuste a la forma en que desee aprender.</block>
-  <block id="512c554de100f0a0303aff43a4938548" category="cell">¿Cómo desea configurar e instalar el sistema? Proporcionamos instrucciones en varios tipos de formato de contenido, pero solo usted sabe cómo le gusta aprender.</block>
-  <block id="5c95199f716f82b32872292114a229c6" category="cell">Elija un tipo de formato de contenido que le guiará durante la instalación y configuración del sistema.</block>
-  <block id="a6cf0a00702e536a363628733d5213a4" category="section-title">Escribir con facilidad</block>
-  <block id="33d3bee5bdc5b545c2ff65c8aae964bc" category="section-title">Escribir como mínimo</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
-  <block id="8e7628e7047272997974cb838b8802bb" category="section-title">Escribir activamente</block>
-  <block id="8218b70694b9a19d40ad23d53669958f" category="section-title">Usar un idioma inclusivo</block>
-  <block id="6b779f3ec24824723334061dfbc337ce" category="paragraph">NetApp cree que la documentación de sus productos no debe contener un lenguaje discriminatorio y exclusivo. Las palabras que utilizamos pueden marcar la diferencia entre forjar una relación positiva con nuestros clientes o alejarlos. Especialmente con palabras escritas, el impacto es más importante que la intención.</block>
-  <block id="d658c6f2741d4739bd62749a7c146725" category="paragraph">Mientras crea contenido para los productos de NetApp, evite cualquier lenguaje que se pueda interpretar como degradante, racista, sexista u otro tipo de opresión. En su lugar, utilice un idioma accesible y acogedor para todo aquel que necesite utilizar la documentación. Por ejemplo, en lugar de "maestro/esclavo", utilice "primario/secundario".</block>
-  <block id="4b836daed67a5f68f01caa4387d2997b" category="section-title">Llegar al punto</block>
-  <block id="a361775444b7090a1bfe12fd4cbcfa6d" category="section-title">Utiliza muchas imágenes</block>
-  <block id="ff7c0fcd6a31e735a61c001f75426961" category="list-title">Ejemplos</block>
-  <block id="2c1f35f6a2d89783cc4e3cb5dddbf13e" category="inline-link">Ejemplo #1</block>
-  <block id="f878cf0dd42dc4c0fea1e3d46b29bd65" category="inline-link">Ejemplo #2</block>
-  <block id="e03e1e7d88cf65f2b375e60b53e89c18" category="section-title">Crear contenido que pueda ser canificable</block>
-  <block id="c7c09212616a4a2622a565139e7747b4" category="list-text">Primera entrada en la navegación izquierda (nivel alto)</block>
-  <block id="7cc3e492c1345524ee2effcd59abda63" category="list-text">Páginas individuales (nivel detallado)</block>
-  <block id="ec826192fccf8be31a46bdad89b15a35" category="section-title">Escribir para un público global</block>
-  <block id="f0f9c60e1d1c38e5a9282af65e27df3e" category="list-text">Escribir frases cortas y sencillas.</block>
-  <block id="ddcc68ade0c576c92ac92ba06b373fce" category="list-text">Utilice gramática y puntuación estándar.</block>
-  <block id="909018b5da2bdfa309a623714b4abce2" category="list-text">Utilice una palabra para un significado y un significado para una palabra.</block>
-  <block id="08bf7d31b011ef1f4b33124f4f51539e" category="list-text">Utilice contracciones comunes.</block>
-  <block id="f51d2e58105800b1fb1707755869f2e0" category="list-text">Utilice gráficos para aclarar o reemplazar texto.</block>
-  <block id="7cb5636f8c309d98d496b57409e7f06b" category="list-text">Evite incrustar texto en gráficos.</block>
-  <block id="c9524683eb76d92421f71bc3876450bf" category="list-text">Evite tener tres o más nombres en una cadena.</block>
-  <block id="d0ae92edfa39d062eb594422bc868ed0" category="list-text">Evitar antecedentes poco claros.</block>
-  <block id="e7c58fb2c1e9e7aeaf7a80bc212c873e" category="list-text">Evitar la jerga, los coloquialismos y las metáforas.</block>
-  <block id="57767c4e6018050031f1ad01a5fb80c4" category="list-text">Evite ejemplos no técnicos.</block>
-  <block id="dd13126a02977b1e5fa5494f561a633f" category="list-text">Evite utilizar retornos duros y espaciado.</block>
-  <block id="16d11ee29f6f290bcb8babae3728286f" category="section-title">Directrices de la a a la Z.</block>
-  <block id="2eb27342533224892a3e4726bf3cd1da" category="list-text">NetApp ha recibido el contrato.</block>
-  <block id="62d0f31f6dc46df87f32e1ce19fec535" category="paragraph">En voz pasiva, el hacedor de la acción no está claro:</block>
-  <block id="e43565b3dce418b9df37a2f9ccbcc4bd" category="list-text">Se muestra un mensaje de advertencia si el sistema se apaga incorrectamente.</block>
-  <block id="2c8e117631c6f08c9039f90314fd8195" category="list-text">NetApp ha sido galardonado con el contrato.</block>
-  <block id="9fda5fb9a772f0024a87367f5cea4555" category="paragraph">Utilizar voz pasiva cuando:</block>
-  <block id="c012fbf53ac9515a3c6afd27e2d55d47" category="list-text">Usted quiere evitar culpar a los usuarios por los resultados de una acción.</block>
-  <block id="af64200956f4064e1a823bf61e40dff2" category="paragraph">Para convenciones adicionales de verbo, consulte:</block>
-  <block id="00c1d9795bac737a221ed9550c76fa9c" category="inline-link">Guía de estilo de escritura de Microsoft</block>
-  <block id="028b46cc7b75d3506f83fd48efbdd6ec" category="list-text"><block ref="028b46cc7b75d3506f83fd48efbdd6ec" category="inline-link-rx"></block></block>
-  <block id="97aba9ddd85fa7db3ab0975897188664" category="inline-link">Merriam-Webster Diccionario en línea</block>
-  <block id="a5c0a6970afaed0f8993e80f0367d714" category="list-text"><block ref="a5c0a6970afaed0f8993e80f0367d714" category="inline-link-rx"></block></block>
-  <block id="33f6518588649a99a675cf3b6920a297" category="section-title">admoniciones</block>
-  <block id="07ccfe360dce69b84595428e2ec1c1cc" category="section-title">también</block>
-  <block id="06957db97049767f064edfa829e41728" category="list-text">Utilice "también" para indicar "adicionalmente".</block>
-  <block id="db9cdfa0cd758f90d8341ab3a5f4ff2b" category="section-title">y/o.</block>
-  <block id="f970e2767d0cfe75876ea857f92e319b" category="section-title">como</block>
-  <block id="0e18a46a2b02489fafa6c6df3df6cd0e" category="section-title">capitalización</block>
-  <block id="b63f5554f4f480aa1ef79652ec27ee13" category="paragraph">Utilice mayúsculas de estilo de frase (minúsculas) para casi todo. Solo capitalice:</block>
-  <block id="9dee471d50e8b5fed02a8a6cbbb90cea" category="list-text">La primera palabra de frases y encabezados, incluidos los títulos de las tablas</block>
-  <block id="fada45a13bcaa855c11cdf2cd17ecabb" category="list-text">La primera palabra de los elementos de la lista, incluidos los fragmentos de frase</block>
-  <block id="9eb4dcddf6980c19c68d5273a13b86c5" category="list-text">Unas adecuadas</block>
-  <block id="eddba1fe20f91ded5ec182b32682e6c7" category="list-text">Títulos de documentos y subtítulos (capitalice todas las palabras y preposiciones principales de cinco o más letras)</block>
-  <block id="48d8af07449dc749dcbfeb9a6c1885b4" category="list-text">Elementos de la interfaz de usuario, pero solo si están capitalizados en la interfaz. De lo contrario, utilice minúsculas.</block>
-  <block id="abd401c81b52a092eef7f29c422e5a5d" category="list-text">Siga siempre las directrices de <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>.</block>
-  <block id="322669f84f436ca5d7fcc2d36731876a" category="section-title">contracciones</block>
-  <block id="4de6581944a6bd25ecc90a52947add4c" category="cell">no es</block>
-  <block id="075a959179a3ff15345c5865a10c5435" category="cell">por ahora</block>
-  <block id="f8291da3d6882dd7a1c80846efe60c1c" category="cell">no lo era</block>
-  <block id="706dc2ee585fb5dcb18e3ac08da7ce0c" category="cell">sí</block>
-  <block id="a3252eb3d0451297e8a3214fcbc9ed7f" category="cell">no lo fueron</block>
-  <block id="3f347890f95ef75c2eacb4f01c622ac9" category="cell">vamos</block>
-  <block id="db8b923a9180129ba0052fbcd986f8b9" category="cell">no lo hizo</block>
-  <block id="59a7709f7ee8c9dadf75615cbe4a79cf" category="cell">no lo hace</block>
-  <block id="5970929a425637241abb7a44591e32b3" category="cell">no lo hagas</block>
-  <block id="fa4dcd229606d27eb80b780e6fb39231" category="list-text">No utilice contracciones como estas, que son difíciles de entender y traducir:</block>
-  <block id="73b0472d43069103642ffa07997ff20a" category="section-title">gráficos</block>
-  <block id="b3d1bd6a249a6a85c42bc5762cec6e1f" category="section-title">gramática</block>
-  <block id="6d327be841a032bf5396053a09819082" category="paragraph">Salvo que se indique lo contrario, siga las convenciones de gramática, puntuación y ortografía detalladas en:</block>
-  <block id="edddbccf5720c62aea76f84134446e73" category="section-title">si no es así</block>
-  <block id="f7374e56bb0693536626afe622146018" category="paragraph">**Haga esto**: "Verifique que el ordenador esté apagado".</block>
-  <block id="935a47d77d7a3c44e0c0b52932eed24b" category="section-title">voz imperativa</block>
-  <block id="b3ea8b01998e78b3c2e70cc88ad4b0d5" category="list-text">Considere la posibilidad de utilizar la voz necesaria para sustituir la voz pasiva:</block>
-  <block id="84509c9c0ef2e15f9f3c90a682fb0f76" category="list-text">Evite utilizar la voz imperativa para incrustar pasos en la información conceptual y de referencia.</block>
-  <block id="cb277327ff86def837ef04f0405c226e" category="section-title">futuras funcionalidades o versiones</block>
-  <block id="e843eeb69636fc6020ca63dad53b5ffb" category="section-title">Artículos de KB: Referencia a.</block>
-  <block id="8aacbd721ee842f62c002641bc604a42" category="paragraph">Consulte los artículos de la base de conocimientos de NetApp (NetApp Knowledgebase) cuando corresponda. Para páginas de recursos y contenido de GitHub, coloque el vínculo en texto en ejecución.</block>
-  <block id="e6dbca21d4865b265ca2780205b19305" category="section-title">listas</block>
-  <block id="f972727d0d863b69350eed11db8a67bd" category="paragraph">Las listas de información suelen ser más fáciles de escanear y absorber que los bloques de texto. Considere formas de simplificar la información compleja presentándola en forma de lista. A continuación se indican algunas directrices generales, pero use su criterio:</block>
-  <block id="652c96d419d82d48f063f9b3698a7ab6" category="list-text">Asegúrese de que el motivo de la lista está claro. Introduzca la lista con una frase completa, un fragmento de frase con dos puntos o un encabezado.</block>
-  <block id="2338eb397c8abd6df9094da8edbe3fdf" category="list-text">Las entradas de lista deben ser lo más explorables posible. Evite bloques de texto que se puedan escanear para mantener las entradas de la lista.</block>
-  <block id="abbf51d81adc3957b31167816443126c" category="list-text">Las entradas de la lista deben comenzar con una letra mayúscula, y las entradas de la lista deben ser gramaticalmente paralelas. Por ejemplo, comience cada entrada con un sustantivo o un verbo:</block>
-  <block id="17de64fcb1f9b55eb373463234c451ae" category="list-text">Si todas las entradas de la lista son frases completas, terminarlas con períodos.</block>
-  <block id="a5b9dd23d74280fb7ba58e82cac098a5" category="list-text">Las entradas de lista deben ordenarse de forma lógica, como alfabéticamente o cronológicamente.</block>
-  <block id="0662a73e1733968abaea58a21d0e7d99" category="section-title">localización</block>
-  <block id="6a02ad2d520b51e6b2e6392b2a25afe6" category="section-title">minimalismo</block>
-  <block id="a8deee35ded32ce6132adf7972bcf9f2" category="list-text">¿Los usuarios necesitan este contenido en este lugar, en este momento?</block>
-  <block id="20bcf054830ff9c3e53c74382e6823c6" category="list-text">¿Puedo presentar el contenido en menos palabras sin sonar demasiado formal o demasiado informal?</block>
-  <block id="eb56305480f1800f960d7fe6af51ceac" category="list-text">¿Puedo acortar o simplificar una frase larga o dividirla en dos o más frases?</block>
-  <block id="bb012a61ae1699900a94d563de53cdc2" category="list-text">¿Puedo utilizar una lista para hacer que el contenido sea más explorable?</block>
-  <block id="973abe3339e6e5539f176843c11014ae" category="list-text">¿Puedo utilizar un gráfico para aumentar o reemplazar un bloque de texto?</block>
-  <block id="ee5c35ce3d081da90622a10d2272ed5e" category="section-title">números</block>
-  <block id="8f9a17dd774590a49d5e848c91e50b86" category="list-text">Utilice números arábigos para 10 y todos los números mayores de 10, con las siguientes excepciones:</block>
-  <block id="9a1af7b5c8f5004b90fb140665279371" category="list-text">Si comienza una frase con un número, utilice una palabra, no un número árabe.</block>
-  <block id="077368b9c970c37dc92a6bb335fbad3e" category="list-text">Utilice palabras (no números) para números aproximados.</block>
-  <block id="43446036c64aba99682872d1891efb4d" category="list-text">Utilice palabras para números menores de 10.</block>
-  <block id="870854ebb49996ac2172874853907e94" category="list-text">Si una frase contiene una mezcla de números menores de 10 y mayores de 10, utilice números árabes para todos los números.</block>
-  <block id="5287f067bd9e6eb8a91e2a9832344b13" category="section-title">plagio</block>
-  <block id="936f98f41233816dff46138972fa2953" category="paragraph">Documentamos los productos de NetApp y la interacción de los productos de NetApp con productos de terceros. No documentamos productos de terceros. Nunca deberíamos copiar y pegar contenido de terceros en nuestros documentos y no deberíamos hacerlo nunca.</block>
-  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="section-title">requisitos previos</block>
-  <block id="a34da8c268ec527e1d5925059a96861c" category="paragraph">Los requisitos previos identifican las condiciones que deben existir o las acciones que los usuarios deben haber completado antes de iniciar la tarea actual.</block>
-  <block id="8394944633693445cf2a40752c8f6416" category="list-text">Utilice la voz pasiva para la redacción de los requisitos previos si tiene sentido hacerlo:</block>
-  <block id="528a1008a1221d32453075e9ca6eb4f9" category="list-text">Considere otras formas de presentar la información, por ejemplo, si sería apropiado volver a escribir el contenido como el primer paso de la tarea actual:</block>
-  <block id="9ac6d441030eb0844ffb83ba4f100c94" category="section-title">signos de puntuación</block>
-  <block id="397121b9a7d73a380fe1920cf1a977f4" category="paragraph">Simplifique. En general, mientras más puntuación se incluya en una frase, más células cerebrales se necesita entender.</block>
-  <block id="0d04ba12e7e714d951125d0424b0ff70" category="list-text">Limite el uso de punto y coma.</block>
-  <block id="50324905c471f3d4d61f7d3f723f3644" category="section-title">desde entonces</block>
-  <block id="fe8ec90a5524db5c338d82b17517dcdb" category="section-title">ortografía</block>
-  <block id="3d5cfd3d5e627e33b27fadb6b405a1dd" category="section-title">marcas comerciales</block>
-  <block id="e273e00cc1e1e5b94a098e24137cf85e" category="inline-link">Condiciones de Marca comercial de NetApp</block>
-  <block id="20771c4637e265828d5e2a091ea4c61b" category="list-text">Use términos de marcas (con o sin el símbolo) sólo como adjetivos, nunca como sustantivos, verbos o verzales.</block>
-  <block id="41d8e72b4f5f3cc4857e431dec4e269c" category="section-title">interfaz de usuario</block>
-  <block id="d82cb0209a5722e763aa8eb79a8868f1" category="section-title">Directrices generales</block>
-  <block id="1b8d1f910b382b0cc9563c9a6075268d" category="list-text">Presuponga éxito. A menos que espere que una operación falle la mayoría de las veces, no documente la ruta de fallos. Supongamos que la interfaz proporciona una guía adecuada.</block>
-  <block id="cfb6729137a6d954b8da252581dd2b3a" category="list-text">Centre el contenido en un flujo de trabajo que aborde un caso de uso del cliente y haga que el usuario tenga el lugar adecuado en la interfaz para iniciar el flujo de trabajo.</block>
-  <block id="678db84be7d1b3a0571d0bd4777deb5b" category="list-text">Documente siempre la mejor manera de lograr el objetivo del usuario.</block>
-  <block id="2e4ba66275505e14599da983d8966f0d" category="list-text">Si el flujo de trabajo requiere una decisión significativa, asegúrese de documentar una regla de decisión.</block>
-  <block id="a69f6b92d1b2cc6e712a2bb8ae42b9ce" category="list-text">Utilice el número mínimo de pasos necesario para la mayoría de usuarios la mayor parte del tiempo.</block>
-  <block id="c8ac8ac544647d0524755cbe9b3c4f13" category="section-title">Nomenclatura de los elementos de la IU</block>
-  <block id="ea403515c7449c382f3a20bd19ddbd50" category="section-title">Representación de las etiquetas mostradas</block>
-  <block id="4ef516ca2cc08cdcd670e074e779540e" category="section-title">Uso de capturas de pantalla</block>
-  <block id="26bcf216756ee1aebfeb7431d225e3c4" category="paragraph">Un flujo de trabajo es una serie de pasos o subtareas que describen cómo alcanzar un objetivo de usuario. El alcance de un flujo de trabajo es un objetivo completo.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Derechos de autor</block>
@@ -170,10 +40,6 @@
   <block id="1482bc2757808e2d1858d6d85b2b3760" category="section-title">Envíe las ediciones a los documentos</block>
   <block id="adcb9bdb1b09c21b0c4ebd90bea887b4" category="paragraph">Si se siente cómodo editando el contenido, puede enviar los cambios exactos de documentos que desea ver editando directamente el archivo de origen.</block>
   <block id="b1f21a83d31638b65d6935686b2feb28" category="paragraph">Como colaborador externo, no podrá publicar el cambio directamente. La derivación de contenido revisará los cambios, realizará las modificaciones necesarias y, a continuación, combinará los cambios. Recibirá una notificación por correo electrónico de GitHub cuando esto ocurra.</block>
-  <block id="f827e33f584cf187cf4dc21885d3a813" category="paragraph">Si necesita ayuda con nuestro estilo de escritura o sintaxis de origen, puede utilizar estos recursos:</block>
-  <block id="c0401f891276697902a45a2088f0b8b5" category="list-text"><block ref="c0401f891276697902a45a2088f0b8b5" category="inline-link-macro-rx"></block></block>
-  <block id="10785bb6cb06604e049556197d164114" category="inline-link-macro">Sintaxis AsciiDoc</block>
-  <block id="5a154fee0d82d09b2f38381ace957a3a" category="list-text"><block ref="5a154fee0d82d09b2f38381ace957a3a" category="inline-link-macro-rx"></block></block>
   <block id="579b796bc7d54ee31ef84e8c48422971" category="list-text">Con el explorador Web, abra la página en<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> que desea editar.</block>
   <block id="e7d8ad09698890d7f20cd3a3b8e95fc8" category="inline-image-macro">Edite esta página</block>
   <block id="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="paragraph"><block ref="a4589f41d9a3b1bd4142ba0e7cfdc9ef" category="inline-image-macro-rx" type="image"></block></block>
@@ -295,8 +161,6 @@
   <block id="424e522025c17a44a3de0e553dc5338a" category="section-title">Reutilización de contenido</block>
   <block id="4231f03b29dfbd7c494bb9b54615acf2" category="paragraph">Si tiene un fragmento de contenido que se repite en diferentes páginas, puede escribirlo fácilmente una vez y volver a utilizarlo en esas páginas. La reutilización es posible desde el mismo repositorio y entre repositorios. A continuación se explica su funcionamiento.</block>
   <block id="8a1d665fa2c1c90395d9c5d9c016c500" category="list-text">Cree una carpeta en su repositorio denominada _include</block>
-  <block id="e3f8aa4eda2e628247843143e4444ee2" category="inline-link">Por ejemplo, echemos un vistazo al repositorio de organización en niveles en cloud</block>
-  <block id="2836203db72cb8b2dc0747c34ad3623a" category="paragraph"><block ref="2a9209a35a25c7ac66e2cadee79eeb5b" category="inline-link-rx"></block>.</block>
   <block id="4edc4125f1bd80699bd212f2ec25b2d5" category="list-text">Agregue un archivo .adoc en esa carpeta que incluya el contenido que desea reutilizar.</block>
   <block id="2c019d97fda317ba4409ef14a62308b7" category="paragraph">Puede ser una frase, una lista, una tabla, una o más secciones, etc. No incluya ningún otro elemento en el archivo, sin encabezados ni nada.</block>
   <block id="8220c87ca19e659ee804d3dc2149e367" category="list-text">Ahora vaya a los archivos en los que desea volver a utilizar ese contenido.</block>
@@ -306,7 +170,6 @@
   <block id="514e377a927694fc176e85fdf041aca4" category="inline-link">Consulte el Manual del usuario de AsciiDoctor</block>
   <block id="26c37afe99559e49b8e1997dc66b06a4" category="paragraph">Si desea obtener más información sobre la directiva include,<block ref="3614cbd0aad04b2c40fced01c250f6c0" category="inline-link-rx"></block>.</block>
   <block id="f0e4224652765b139f46a83b11feccc3" category="sidebar">Contribuir al contenido</block>
-  <block id="10d4522e6465e87db3593c69181bea32" category="sidebar">Estilo para documentos de NetApp</block>
   <block id="e29016dcbdfa079e649a759e6f2c7d73" category="paragraph">Esperamos que todos los colaboradores de NetAppDocs cumplan la siguiente política:</block>
   <block id="3d2f76e77fa66405170b95a4e6d0f881" category="paragraph">Los colaboradores de NetAppDocs deben tener en cuenta lo siguiente:</block>
   <block id="3c00452e7eb4795d729c810a473fcbc2" category="list-text">Los derechos de autor de la nueva documentación técnica deben permanecer en NetApp y no se deben compartir con AIS fuera de NetApp antes de las fechas de lanzamiento oficiales del producto ni de la publicación correspondiente de la documentación técnica relacionada.</block>
@@ -347,254 +210,14 @@
   <block id="2e84483ed9299418b0150374661cf99c" category="list-text">Selecciona *Proponer cambios*.</block>
   <block id="607644ea86d6d93cc4cdd29af464ffb4" category="list-text">Selecciona *Crear solicitud pull*.</block>
   <block id="fc6c6e20ee1801385613951d198838c6" category="paragraph">Puede ver el estado de la solicitud de extracción seleccionando *pull requests* en el banner de GitHub:</block>
-  <block id="a0bc5d64ea914c22438ad9b10a8d2bca" category="paragraph">Escriba como si hablara cuando le esté explicando algo a un colega profesional. Escribir en un tono conversacional le ayuda a conectar con su audiencia.</block>
-  <block id="3564fc274e19607926c43722a0d4037c" category="cell">No es divertido cuando ocurren los fallos. Sin embargo, no se preocupe, simplemente eche un vistazo a la consola de clúster para ver qué ha sucedido y qué está afectado.</block>
-  <block id="419e062b0a0e2775c1a54691ccef8b1b" category="paragraph">Evite palabras grandes y confusas. Simplifique. Estás explicando algo a un colega profesional, sin mostrar tu vocabulario.</block>
-  <block id="5d943fe7d088fe2acb6eb914be0e07b9" category="paragraph">Las frases cortas y sencillas facilitan la lectura o exploración del contenido. Está bien usar una oración más larga de vez en cuando, pero seguirla con una más corta. Así.</block>
-  <block id="34adf8b022c7b72afa623dd7ec748764" category="paragraph">Evitar la voz pasiva es una regla estándar para la escritura de tecnología, pero es especialmente importante usar la voz activa cuando se quiere sonar conversacional.</block>
-  <block id="05a5f50f88982e6ed8b6a3f52aeebdf2" category="list-text">No uses humor ni ironía.</block>
-  <block id="8af7fc9385a3720c928df0ca6e942892" category="list-text">No uses contenido discriminatorio.</block>
-  <block id="ca82ee793e3056ec4d0835ae2473a598" category="list-text">No uses un lenguaje sesgado por el género a menos que estés escribiendo para una persona específica.</block>
-  <block id="2d26cccc873ac9d1cdacdf8bb797d5db" category="list-text">No sabes quién o qué realizó la acción.</block>
-  <block id="5f5cba4ea52fa838a05e1f2d89ad6656" category="list-text">No se puede escribir alrededor de él, como por ejemplo para alguna información de requisitos previos.</block>
-  <block id="945c6682875eec566264ce79cbd2ad0d" category="list-text">Céntrese en hacer el contenido claro y fácil de usar. Si todo el contenido es claro y fácil de usar, las inconsistencias menores no importan.</block>
-  <block id="e298d7e5e24682a3c8bdbb35a4fe032b" category="list-text">Sea consistente dentro de la página que está escribiendo.</block>
-  <block id="5759b7c5715d057d5710c3f672f2fa6b" category="cell">no lo es</block>
-  <block id="56de9219979795654f00a462f479b92d" category="cell">lo es</block>
-  <block id="d90e297e46a1967fdcc50b1b348bfb6d" category="cell">lo habría hecho</block>
-  <block id="80d265e5e803c6d25656a0342dfe9058" category="cell">debería haber</block>
-  <block id="0eab61dbc3e8ad63324f3382baf86ac7" category="cell">no lo habría hecho</block>
-  <block id="368ae8075df4c346356ccb30d7017e0f" category="cell">no debería haber</block>
-  <block id="f53d2e2b9d5955df6129edc300678d0e" category="cell">podría haberlo hecho</block>
-  <block id="4f6cd60d5fc734e269d47ea283663717" category="cell">no podía haber</block>
-  <block id="a2aa669690daf70aa345dc242196842e" category="list-text">Si todas las entradas de la lista son fragmentos de frases, no las termine con puntos.</block>
-  <block id="ab9b9e78a26798d3eaa0db4706f384d3" category="paragraph">No incluimos símbolos de marca en la mayoría de nuestro contenido técnico porque las declaraciones legales en nuestras plantillas son suficientes. Sin embargo, sí seguimos todas las reglas de uso cuando las utilizamos<block ref="2e2a247b84825e1844201424214689d3" category="inline-link-rx"></block>:</block>
-  <block id="ff559a115ec6086ff7a0014b09a7628a" category="list-text">No abrevie, hifenato ni cursiva términos marcas registradas.</block>
-  <block id="10705c28baf7efc3b2835cbefb6f4e3a" category="list-text">No pluralice los términos con marcas registradas. Si se requiere una forma plural, use el nombre de la Marca registrada como adjetivo que modifica un sustantivo plural.</block>
-  <block id="760515d763f215ba568e0df111ef068c" category="list-text">No uses una forma posesiva de un término de marca registrada. Puede utilizar la forma posesiva de nombres de empresa, como NetApp, cuando los nombres se utilizan en sentido general, en lugar de como términos de Marca comercial.</block>
-  <block id="aaa67196f34f17bf807576a3879d2ae0" category="list-text">No guíe al usuario a través de un asistente o pantalla paso a paso. Sólo llame a las cosas importantes que no son aparentes desde la interfaz.</block>
-  <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">Para los iconos que deben seleccionar los usuarios, utilice una imagen del icono. No intente nombrarlo. Esta regla se aplica a iconos como la flecha, lápiz, engranaje, kabob, hamburguesa, y así sucesivamente.</block>
   <block id="aa475deb1febd97e43051f4cd6e0e03c" category="paragraph">El siguiente vídeo ofrece una breve descripción general de estas dos opciones.</block>
   <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">Se abre una nueva pestaña del navegador con un formulario de GitHub que puede utilizar para proporcionar detalles a nuestro equipo de documentos.</block>
   <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">Se abre una nueva pestaña del navegador que le llevará al archivo del repositorio de GitHub para el sitio de documentación.</block>
   <block id="864a308d9063db9563fd2862dc533628" category="list-text">No envíes documentación confidencial ni contenido recién escrito a AI (ChatGPT o cualquier otra herramienta). Cualquier información que se introduzca en ChatGPT se convierte en parte de su conjunto de datos de entrenamiento, que a su vez se convierte en propiedad de OpenAI y puede ser utilizada por ellos y sus usuarios. Si bien gran parte de estos datos son accesibles públicamente, no queremos entrenar el modelo en nuestra propia IP.</block>
-  <block id="6001ad801f9374c95cd6e5159d3ca554" category="cell">Si tienes problemas con la organización en niveles de BlueXP, puedes ver el estado en la consola de clúster para determinar por qué se ha producido el error. El estado refleja el estado del sistema ONTAP y del conector de servicio.</block>
-  <block id="3d13de22585f7c90feb3af32fb6255e3" category="cell">Cuando se produce un error, la organización en niveles de BlueXP muestra el estado «Failed» en la consola de clúster. Consulte el estado para obtener información sobre el error.</block>
-  <block id="4aceae741b6dd0da0c4af2d6f9999125" category="cell">Para poder aprovisionar el almacenamiento, tienes que detectar tu clúster de ONTAP en BlueXP. Una vez finalizada la detección, debe abrir el entorno de trabajo para aprovisionar el almacenamiento.</block>
-  <block id="a359d239071c811073a8090adc7d2869" category="cell">Todo lo que haces es detectar primero tu clúster ONTAP desde BlueXP y, a continuación, abrir el entorno de trabajo para empezar a aprovisionar el almacenamiento. ¡Fácil!</block>
-  <block id="72b0a15f6dc7f75a391b8f2deb80eada" category="cell">Después de descubrir tu clúster ONTAP de BlueXP, abre el entorno de trabajo para aprovisionar almacenamiento.</block>
-  <block id="eeb97b72bcb04cbd8d8e08ff9fd0ab1e" category="section-title">Utilice contracciones</block>
-  <block id="dcb43d00e586f1a5b0a455d4c42911a3" category="inline-xref">tono de conversación</block>
-  <block id="aed4cc72dbafe70c1659fca7aaf48fc5" category="paragraph">Las contracciones refuerzan a <block ref="e5dc0ddf6053ca851efc9fc29efec6f8" category="inline-xref-macro-rx"></block>, y muchas contracciones son fáciles de entender y traducir.</block>
-  <block id="22a9cd16fbcd63280c29272ce4f6f4f4" category="example-title">Amplíe para obtener más información</block>
-  <block id="4e8f541c93e50f21ff3ed4936a4d83b2" category="list-text">Utilice contracciones como estas, que son fáciles de entender y traducir:</block>
-  <block id="284097c621ee43e2ed3a2212d29102f5" category="cell">lo haremos (si se requiere tiempo futuro)</block>
-  <block id="3c2bb9e95fa5b8a7d4e0a0d41ad5b86f" category="cell">no lo hará (si se requiere tiempo futuro)</block>
-  <block id="a4b1e16e36a349a9247d2137cac483f8" category="cell">usted (si se requiere tiempo futuro)</block>
-  <block id="82dad67d8806110a136a6a9600650fb6" category="paragraph">**En lugar de esto**: “Disociar al usuario de su cuenta central en la nube de NetApp”.</block>
-  <block id="6a33be9f6f0a79bf8672d096460da953" category="paragraph">**Haz esto**: “Elimina al usuario de tu cuenta central en la nube de NetApp”.</block>
-  <block id="d03e3b3315dec359ee190696d4c8fea4" category="paragraph">**En lugar de esto**: “Para replicar datos entre un sistema Cloud Volumes ONTAP en AWS y los sistemas ONTAP en otras redes, debe tener una conexión VPN entre la VPC de Amazon y la otra red, por ejemplo, una vnet de Azure o su red corporativa”.</block>
-  <block id="fb9660af12bf79398c26a55f35753c8c" category="paragraph">**Haga esto**: “La replicación de datos entre redes requiere conexión a través de una VPN. Por ejemplo, entre su Amazon VPC y su red corporativa o entre AWS y Azure».</block>
-  <block id="5b72a9011d8b03de8f68b8e22728980e" category="paragraph">Pregúntate lo siguiente:</block>
-  <block id="0acb624cdc21050020228a5c1b2d0e12" category="list-text">¿La interfaz de usuario ya guía al usuario lo suficientemente bien? Si no es así, ¿qué guía adicional se puede agregar sucintamente?</block>
-  <block id="f5c4358a30b11e4d51f1b70da59a1e4f" category="section-title">Voz activa</block>
-  <block id="94f4580af34642dca5602d20328864c6" category="paragraph">Utilice la voz activa para que el sujeto de la oración realice la acción del verbo. Esto normalmente significa que el verbo sigue al sujeto de la oración. La voz activa mantiene la grabación nítida y clara. Utilice la voz activa y dirija a los usuarios directamente como “usted” a menos que tenga una razón específica para usar la voz pasiva.</block>
-  <block id="05726c0b25584edfbbeb54bbd42743a4" category="paragraph">Aquí hay algunos ejemplos de buena escritura de voz activa. Escribe así:</block>
-  <block id="641eb1e93e5d30befeffc406c18468f0" category="list-text">Proporcione los permisos necesarios antes de implementar el primer clúster.</block>
-  <block id="3f005421948d646b44ec122316154b68" category="list-text">Si apaga el sistema incorrectamente, la interfaz muestra un mensaje de advertencia.</block>
-  <block id="1a303c5f4eed3b77a97d8862ea467f56" category="section-title">Voz pasiva</block>
-  <block id="a652699ef60f4419b461c63059111c2c" category="section-title">Estado de ánimo imperativo</block>
-  <block id="4ae2240fd55c51892cf9aeb3660b592d" category="paragraph">Utilice el estado de ánimo imperativo para los pasos, directivas, solicitudes y encabezados de las listas de acciones del usuario:</block>
-  <block id="73cfa7195e4bda4f2eb88c5590b1c78a" category="list-text">En la página Working Environments, haga clic en Discover and select ONTAP Cluster.</block>
-  <block id="62adb2c93dd55a3ad3d8889df0be24b3" category="list-text">Gire el asa de la leva para que quede a ras de la fuente de alimentación.</block>
-  <block id="3a698e7c782f0bc63fada32b2af47ac7" category="paragraph">**En lugar de esto**: “Los permisos requeridos deben ser proporcionados antes de implementar su primer clúster”.</block>
-  <block id="c1b2c901a32fc9ec6b28212940de0c42" category="paragraph">**Haz esto**: “Proporciona los permisos necesarios antes de implementar tu primer clúster”.</block>
-  <block id="1acf3eec4bf44f260077b611735cda38" category="section-title">Escribir contenido coherente</block>
-  <block id="dbcb6b42cd14c232d7ba50d192e5a676" category="paragraph">“Escribir como si hablara cuando le estás explicando algo a un colega profesional” significa algo diferente para todos. Nuestro estilo profesional pero conversacional nos ayuda a conectarnos con los usuarios y aumenta la frecuencia de incoherencias menores entre los múltiples autores contribuyentes:</block>
-  <block id="9d3ffae4c41a85389531314f29cbb6fc" category="paragraph">Use el lenguaje de las personas primero donde nos referimos primero a la persona, seguido por la discapacidad.</block>
-  <block id="f40469276f47411b50d930362b052a73" category="paragraph">No uses él, él, el suyo, ella, ella, o la suya en referencias genéricas. En su lugar:</block>
-  <block id="5ff4845e38d566597471f0c55b3c56b4" category="list-text">Reescribe la frase para usar la segunda persona (tú).</block>
-  <block id="3b7382d0392195ff5c72babf13c5cf26" category="list-text">Reescribe la oración para tener un sustantivo plural y pronombre.</block>
-  <block id="7debda40c8efdcb08c862026722356d0" category="list-text">Utilice “el” o “a” en lugar de un pronombre (por ejemplo, “el documento”).</block>
-  <block id="5f4ea7f4d410f288d581eb32bcc82714" category="list-text">Consulte el rol de una persona (por ejemplo, lector, empleado, cliente o cliente).</block>
-  <block id="1e19c25122029513475dcaf5c704fe75" category="list-text">Use el término “persona” o “individuo”.</block>
-  <block id="456eaa81df236414c4dd5c77f177c4ad" category="paragraph">*Ejemplos de palabras y frases que se consideran inclusivas o exclusivas*</block>
-  <block id="80f338cfee2680507ee19b3229199a35" category="cell">Ejemplos inclusivos</block>
-  <block id="5d00480bffe867508198b6b890ebccdb" category="cell">Ejemplos exclusivos</block>
-  <block id="b750282d4f8d85fff2417b2aa976154d" category="cell">Primario/secundario</block>
-  <block id="62f583432cdb74cef18f62e64b49e3d5" category="cell">Maestro/esclavo</block>
-  <block id="c7157221c998aef6193793b125d2da94" category="cell">Lista permitida</block>
-  <block id="778f0a4cbdc7e22f17964daa6ebee02a" category="cell">Lista blanca</block>
-  <block id="00452d60508111f10d9c8db7e0b3d947" category="cell">Lista bloqueada</block>
-  <block id="85fffe8f5074d606fa202fa5ae90d8bb" category="cell">Lista negra</block>
-  <block id="11a755d598c0c417f9a36758c3da7481" category="cell">Pare</block>
-  <block id="292ed5e525d66c64f13a3bf54a17c06a" category="cell">Matar</block>
-  <block id="689b1be69fae5828e6c823a30a18abfe" category="cell">Deje de responder</block>
-  <block id="ab2455e33b8ddb6a9d2d41107a2ed4f6" category="cell">Colgar</block>
-  <block id="bf82d72fec9844cf01ba4336fc5f8581" category="cell">Finalizar o Cancelar</block>
-  <block id="727b63583e01fa2b3952dab580c84dc2" category="cell">Anular</block>
-  <block id="85921137ab0e8ba55b5a95ab295eba9a" category="cell">Hora de la persona</block>
-  <block id="26eecafda11f3c1376eb5128760a1dfd" category="cell">Hora del hombre</block>
-  <block id="debbc9acb80d94bb6e3d641aec77c5bd" category="cell">Los desarrolladores necesitan acceder a los servidores en sus entornos de desarrollo, pero no necesitan acceder a los servidores de Azure.</block>
-  <block id="9e172cc5e7bee49d581c45bcd2da3976" category="cell">Un desarrollador necesita acceso a los servidores en su entorno de desarrollo, pero no necesita acceso a los servidores en Azure.</block>
-  <block id="4376869978c1dabbd66bba6af23f9b40" category="cell">Persona ciega</block>
-  <block id="8981aeed5f3f47d00b8b8c84caf07b30" category="cell">Para huéspedes con limitaciones visuales</block>
-  <block id="a975729e202349117c6c1f43f8d0f45b" category="cell">Persona con baja visión</block>
-  <block id="3bd892e6666bfd00ac5f39832e9776c7" category="cell">Problemas de visión</block>
-  <block id="9082d6a2f8de143afa954fe0c4cf6945" category="paragraph">Cada página debe comenzar con lo que es más importante para el usuario. Tenemos que averiguar lo que el usuario está tratando de hacer y enfocarnos en ayudarles a lograr ese objetivo. También debemos agregar palabras clave al principio de la oración para mejorar la capacidad de escaneo.</block>
-  <block id="8c29cb528c9acdb9c999cb34aee5b7e9" category="paragraph">Siga estas directrices generales de frases:</block>
-  <block id="d5f2fccfddda581beb53a2459722b9b6" category="list-text">Sea preciso.</block>
-  <block id="541dbc00c41c24cf98300f33bd67cd32" category="list-text">Evite las palabras de relleno.</block>
-  <block id="d98ae29b67b990f903f5bb2f40097624" category="list-text">Sea corto.</block>
-  <block id="e67a5e22d1a07b7e8eabbc9f49ecb5f6" category="list-text">Utilice texto con formato o listas con viñetas para resaltar los puntos clave.</block>
-  <block id="dceb6717054666676ad0df601a567926" category="paragraph">*Ejemplos de llegar al punto*</block>
-  <block id="7a55da0ef1d91f39c5ff520e50c0b66d" category="cell">Buenos ejemplos</block>
-  <block id="4a8f14c4a239ddaa4ad56f019d8b630c" category="cell">Ejemplos erróneos</block>
-  <block id="cca610b37e5c92d570af0565fb168d75" category="cell">Si su empresa tiene políticas de seguridad estrictas, utilice el cifrado de datos en tránsito para sincronizar los datos entre servidores NFS en diferentes redes.</block>
-  <block id="984d4c6b2ffa73254b0fd5fde862ae55" category="cell">Cloud Sync puede sincronizar datos de un servidor NFS con otro servidor NFS mediante el cifrado de datos en tránsito. Cifrar los datos puede ayudar si tiene políticas de seguridad estrictas para transferir datos a través de redes.</block>
-  <block id="7f4b4a408e18cd38029cc949851f32ef" category="cell">Ahorre tiempo creando una plantilla de documento que incluya los estilos, formatos y diseños de página que utiliza con más frecuencia. A continuación, utilice la plantilla cada vez que cree un nuevo documento.</block>
-  <block id="91a8e43b996744967bcbdeeeae9903f2" category="cell">Las plantillas proporcionan un punto de partida para crear nuevos documentos. Una plantilla puede incluir los estilos, formatos y diseños de página que se utilizan con frecuencia. Considere la posibilidad de crear una plantilla si a menudo utiliza el mismo diseño y estilo de página para los documentos.</block>
-  <block id="2015850df67c84dacc3aded964cb89e7" category="cell">Astra Control proporciona tres modos operativos que puedes asignar a tus usuarios para controlar cuidadosamente el acceso entre Astra Control y tu entorno de nube.</block>
-  <block id="89f398ff00a32f170adf2b0fc2218064" category="cell">Astra Control te permite asignar uno de los tres modos operativos a los usuarios de tus cuentas de AWS. Los modos te permiten controlar cuidadosamente el acceso entre Astra Control y tu estado de nube en función de tus políticas DE TI.</block>
-  <block id="1864c222f58633821b22c7218a8549db" category="paragraph">La mayoría de las personas son estudiantes visuales. Utilice vídeos, diagramas y capturas de pantalla para mejorar el aprendizaje, dividir bloques de texto y proporcionar una indicación visual a los usuarios sobre dónde se encuentran en las instrucciones de tarea.</block>
-  <block id="51ef9ea48493941bc576dd6d603525a6" category="list-text">Incluya una frase de introducción que describa la siguiente imagen: “La siguiente ilustración muestra los LED de la fuente de alimentación de CA en el panel posterior”.</block>
-  <block id="4347bfb9354591c0efb77ea5675a9917" category="list-text">Consulte la ubicación de la ilustración como “siguiente” o “anterior”, no “arriba” o “abajo”.</block>
-  <block id="ab633aa0c21a92c34cac65602b26f6c2" category="list-text">Utilice texto alternativo en elementos visuales incrustados.</block>
-  <block id="a6738e6aa310d5b98c7ca42b747b84c5" category="list-text">Si la imagen pertenece a un paso, incluya la imagen justo después del paso y la sangría para alinearla con el número de paso.</block>
-  <block id="09615f545d6349275c0de10801b43fec" category="paragraph">Mejores prácticas en capturas de pantalla:</block>
-  <block id="5a0431aaf7896c50656adc50e0906685" category="list-text">Incluya no más de 5 capturas de pantalla por tarea.</block>
-  <block id="ce7c67e7dcecd0f49b902ed57e692a2c" category="list-text">No incluya texto en una captura de pantalla. Utilice en su lugar anotaciones numeradas.</block>
-  <block id="e4a1c3066b57e220d58f713fba1ecd59" category="list-text">Sé prudente con las capturas de pantalla que elijas incluir. Las capturas de pantalla pueden desaparecer rápidamente.</block>
-  <block id="b6e33f8ec09a06fa6546129739b40a58" category="paragraph">Prácticas recomendadas en vídeos o animaciones:</block>
-  <block id="d995b1f252e6594c2cc511b74f0db877" category="list-text">Los videos deben tener menos de 5 minutos de duración.</block>
-  <block id="16087e77bb97f85e464276292accdc6f" category="inline-link">Ejemplo #1 Obtenga información sobre las credenciales y los permisos de AWS</block>
-  <block id="4e301c300a2eac21077308b32d6701f2" category="list-text"><block ref="4e301c300a2eac21077308b32d6701f2" category="inline-link-rx"></block></block>
-  <block id="25e00dbf7007dccc0edce40a044c779f" category="inline-link">Ejemplo #2 Protege tus datos de volúmenes de ONTAP con backup y recuperación de datos de BlueXP</block>
-  <block id="a0b3bbdf77af26ed1c7f5d247698d537" category="list-text"><block ref="a0b3bbdf77af26ed1c7f5d247698d537" category="inline-link-rx"></block></block>
-  <block id="25db87514589f0d1fda20a16eb47d9e3" category="inline-link">Ejemplo #3 Crear un plan de replicación (muestra capturas de pantalla en una tarea)</block>
-  <block id="656f88bccb854bfe1dde64118314bc1f" category="list-text"><block ref="656f88bccb854bfe1dde64118314bc1f" category="inline-link-rx"></block></block>
-  <block id="05dca879cba3ee232764be79b43635cd" category="inline-link">Ejemplo #4 Gestionar credenciales en el vídeo de BlueXP</block>
-  <block id="fac3f782f8cfaef69bbf66d0ddc3eff9" category="list-text"><block ref="fac3f782f8cfaef69bbf66d0ddc3eff9" category="inline-link-rx"></block></block>
-  <block id="9d96cde19a8d0003c078bf6b180c53ba" category="paragraph">Ayude a los lectores a encontrar contenido rápidamente organizando el texto bajo los encabezados de las secciones y usando listas y tablas. Los encabezados, oraciones y párrafos deben ser cortos y fáciles de leer. La información más importante debe ser proporcionada primero.</block>
-  <block id="dcae47ba844f0d6d2a40917b4973f29b" category="list-text"><block ref="dcae47ba844f0d6d2a40917b4973f29b" category="inline-link-rx"></block></block>
-  <block id="1cb758c099dd7ebd99ee1aa7e2310d01" category="list-text"><block ref="1cb758c099dd7ebd99ee1aa7e2310d01" category="inline-link-rx"></block></block>
-  <block id="92cd82f697902b78aca5db471cd8c67b" category="section-title">Crear flujos de trabajo que ayuden a los usuarios a lograr su objetivo</block>
-  <block id="993fcd038b6183bc6e97ccc62f5f1abd" category="paragraph">Los usuarios leen nuestro contenido para lograr un objetivo específico. Los usuarios quieren encontrar el contenido que necesitan, lograr sus metas y ir a casa a sus familias. Nuestro trabajo no es documentar productos o características. Nuestro trabajo es documentar los objetivos de los usuarios. Los flujos de trabajo son la forma más directa de ayudar a los usuarios a lograr sus objetivos.</block>
-  <block id="4f8439580cde85d7bf0bd20007ca537a" category="paragraph">Por ejemplo, los pasos para crear un volumen no serían un flujo de trabajo, ya que crear un volumen en sí mismo no es un objetivo completo. Los pasos para poner el almacenamiento a disposición de un servidor ESX pueden ser un flujo de trabajo. Los pasos incluirán no solo la creación de un volumen, sino la exportación del volumen, la configuración de los permisos necesarios, la creación de una interfaz de red, etc.</block>
-  <block id="05e22cb91d07b3617eaef49d2b614040" category="paragraph">Los flujos de trabajo se derivan de los casos prácticos de los clientes. Un flujo de trabajo muestra sólo la mejor manera de alcanzar el objetivo.</block>
-  <block id="98bdfab35b28541738e294c787d2d326" category="section-title">Organice el contenido en función del objetivo del usuario</block>
-  <block id="ac8ea0814363a901ce108dc1061489b1" category="paragraph">Ayude a los usuarios a encontrar información rápidamente organizando el contenido en función del objetivo que el usuario está tratando de lograr. Este estándar se aplica a la tabla de contenidos (navegación) de un sitio de documentación, así como a las páginas individuales que aparecen en el sitio.</block>
-  <block id="5178596f33051639e4edb27f4b7d9e26" category="paragraph">Organice el contenido de la siguiente manera:</block>
-  <block id="f05ce9ddbc589e513e72ad5ab78dcfa0" category="list-text">Organice el contenido en torno a los objetivos que el usuario está tratando de lograr. Por ejemplo, la primera entrada en la navegación para el sitio podría ser «empezar» o «proteger datos».</block>
-  <block id="c7ed614b9c8d85ef8360668f4e44930d" category="list-text">Las entradas de segundo nivel en la navegación del sitio de documentación (nivel medio)</block>
-  <block id="c2b0b88a28e350016be32f2565ae2334" category="list-text">Organice el contenido alrededor de las amplias tareas que componen las metas.</block>
-  <block id="0dfa5a4ae580d127570193f6547719f3" category="paragraph">Por ejemplo, la sección «Comenzar» podría incluir las siguientes páginas:</block>
-  <block id="67f289221dc2b8315be57c85a28e0619" category="list-text">Preparación de la instalación</block>
-  <block id="53bd62bb5aae1139e8b0a414528697bc" category="list-text">Instalar y configurar &lt;product name&gt;</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="list-text">Configurar la licencia</block>
-  <block id="d0a7edff5cd82c23f3d1c18e0779ccbc" category="list-text">Lo que puede hacer a continuación</block>
-  <block id="fcc5f8a22c33b5532eade25555182fa6" category="list-text">En cada página, organice el contenido en torno a las tareas individuales que componen las tareas amplias. Por ejemplo, el contenido que los usuarios necesitan para preparar para la instalación o configurar la recuperación ante desastres.</block>
-  <block id="847cfc3e08fb4a887f64577b54937889" category="paragraph">Una página puede describir una sola tarea o varias tareas. Si hay varias tareas, deben describirse en secciones separadas de la página. Cada sección debe centrarse en un solo aspecto de aprendizaje o hacer de la tarea amplia. Esto podría incluir alguna información conceptual y basada en referencias necesaria para completar la tarea.</block>
-  <block id="789479b6a331f03724677e1f733505d0" category="paragraph">Nuestra documentación es leída por muchos usuarios cuyo idioma principal no es el inglés. traducimos nuestro contenido a otros idiomas utilizando herramientas de traducción automática neuronal o traducción humana. Para apoyar a nuestra audiencia global, escribimos contenido que es fácil de leer y fácil de traducir.</block>
-  <block id="955abac4e6854335582815280aaf36b4" category="paragraph">Siga estas directrices para escribir para una audiencia global:</block>
-  <block id="09fe3985f91385714baf11e8ccf88305" category="section-title">voz activa (frente a voz pasiva)</block>
-  <block id="9f9f2635eab2378cac8b309f14376108" category="paragraph">Consulte <block ref="0c285b154ac93c1540ae9e5281017dec" category="inline-xref-macro-rx"></block>.</block>
-  <block id="6647a0d8ddca3a32764030eaa8d33eaf" category="section-title">después (frente a «una vez»)</block>
-  <block id="dbb3ad88bf35c794d6f4916649c3a5f9" category="list-text">Use “After” para indicar una cronología: “Encienda el ordenador después de conectarlo”.</block>
-  <block id="c2173ab81c2076af318b1e50b4c92d38" category="list-text">Utilice «una vez» solo para significar «una vez».</block>
-  <block id="8208198b3f48adf43fc4f69bd282936d" category="list-text">No utilice «tampoco» para decir «alternativamente».</block>
-  <block id="ea84c9cf2753148ded71d53a83400571" category="paragraph">Elija el término más preciso si hay uno. Si ninguno de los términos es más preciso que el otro, use “AND/OR”.</block>
-  <block id="ba8c59349702c086e7df3ebe3ea4277e" category="paragraph">No use “as” para significar “porque”.</block>
-  <block id="637ae8221997308dd8fcc110e2e5e27f" category="section-title">utilizando (en comparación con «uso» o «con»)</block>
-  <block id="8dee1cec1a6e9725cc1fcf446045983f" category="list-text">Utilice “mediante el uso” cuando la entidad que está haciendo el uso sea el asunto: “Puede agregar nuevos componentes al repositorio mediante el menú Componentes”.</block>
-  <block id="dbd86f25365feb9a486d0f31a5a0dfab" category="list-text">Puede iniciar una frase con «uso» o «con», que a veces son aceptables con nombres de producto: «Con SnapDrive, puede gestionar discos virtuales y copias snapshot en un entorno Windows».</block>
-  <block id="f8ba8b49b8c4978a384020d13afd11f2" category="section-title">can (frente a «podría», «puede», «debería» o «debe»)</block>
-  <block id="4b4a3499f36083e10cb9d086cd9eb415" category="list-text">Utilice “CAN” para indicar la capacidad: “Puede confirmar los cambios en cualquier momento durante este procedimiento”.</block>
-  <block id="2ee145f807ac8dfcf172a52c952ba48b" category="list-text">Utilice “podría” para indicar la posibilidad: “La descarga de varios programas puede afectar el tiempo de procesamiento”.</block>
-  <block id="88fb0be320034bd283425d99592c0b2a" category="list-text">No uses “puede”, lo cual es ambiguo porque podría significar capacidad o permiso.</block>
-  <block id="a2cef3d007a6cf67bffcd8a1119a1ee8" category="list-text">Utilice «should» para indicar una acción recomendada pero opcional. Considere usar una frase alternativa en su lugar, como “Recomendamos”.</block>
-  <block id="831996cebc6c9bf7687e922c3437be69" category="inline-xref">pasivo</block>
-  <block id="c4dc5ac1800b6f6c71705d2383606ca1" category="list-text">Evita usar “must” porque lo es <block ref="67063d8c0eb567d1f8340ca4c020375f" category="inline-xref-macro-rx"></block>. Considere la posibilidad de reestablecer el pensamiento como una instrucción utilizando la voz imperativa. Si utiliza “Must”, utilícelo para indicar una acción o condición requerida.</block>
-  <block id="757e3dc7acca7a7f9b54d3c4f0d5c504" category="section-title">avisos de precaución</block>
-  <block id="c1b968c395ac7490714efb8fd0a63007" category="paragraph">Consulte <block ref="8b099210f8d5e10883a9054cab340bdd" category="inline-xref-macro-rx"></block>.</block>
-  <block id="00eb1a63407a4e68c59607bea7412054" category="paragraph">Uso <block ref="171d7b9bec085f3a21cae919f826841f" category="inline-xref-macro-rx"></block> como parte de la escritura conversacional.</block>
-  <block id="8ef442456d62d61063c596f5dc44927c" category="section-title">garantizar (frente a «confirmar» o «verificar»)</block>
-  <block id="9aeb76015c15a0d23324929c5980901e" category="list-text">Use «Asegurar» para decir «asegurarse». Incluya “Eso”, según corresponda: “Asegúrese de que haya suficiente espacio en blanco alrededor de las ilustraciones”.</block>
-  <block id="c9d8607fa16c3a714c0c2f8559ab65e4" category="list-text">Nunca utilice «garantizar» para implicar una promesa o garantía: «Utilice Cloud Manager para asegurarse de que puede aprovisionar volúmenes NFS y CIFS en clústeres de ONTAP».</block>
-  <block id="ea3427d6c6f74deb8784719dca08ebab" category="list-text">Utilice «Confirmar» o «verificar» cuando haga referencia a que el usuario debe hacer doble clic en algo que ya existe o que ya ha sucedido: «Verifique que NFS está configurado en el clúster».</block>
-  <block id="f662ce9a504b91d302ba6eeeb8d4171e" category="paragraph">Consulte <block ref="9a0e14fb1289de2d3cff01148f57284f" category="inline-xref-macro-rx"></block>.</block>
-  <block id="91317769d501c864c691b74f6f5e18be" category="paragraph">No use “si no” por sí solo para referirse a la frase anterior:</block>
-  <block id="e5363ac9cf61667b8b89d463f10f2181" category="list-text">**En lugar de esto**: “La computadora debe estar apagada. De lo contrario, apáguelo.</block>
-  <block id="314ac7c923658bd32bd8cfe5b8f31f03" category="section-title">si (frente a «si» o «cuándo»)</block>
-  <block id="57cea60e898baad9c19780409b1f720a" category="list-text">Use “if” para indicar una condición, como en “if this, then that” construcciones.</block>
-  <block id="4fde9f415cfd38c4ac4b8c19eeb346b5" category="list-text">Use “si” cuando haya una condición declarada o implícita “o no”. Para facilitar la traducción, a menudo es mejor reemplazar "ya sea o no" por "solo".</block>
-  <block id="482a815dda5cae3562f040a54b311368" category="list-text">Use “Cuándo” para indicar un paso del tiempo.</block>
-  <block id="af53d25413a7125a35f1e589763c4cdb" category="paragraph">No te refieras al momento o contenido de las próximas versiones o funciones de productos, aparte de decir que una función o función no es compatible actualmente.</block>
-  <block id="96a49d1c99ca2a13ba02195d3ec5c3a1" category="paragraph">Consulte <block ref="e6bf2b437b43648d4b736f107bb67511" category="inline-xref-macro-rx"></block>.</block>
-  <block id="a5fff28a31e710f1992d186b2d7fc799" category="paragraph">Consulte <block ref="0ef7c8822f1ba28949b862da7815a111" category="inline-xref-macro-rx"></block>.</block>
-  <block id="4caf5ad146ee22283dbdf0209ac460f8" category="list-text">Para obtener más convenciones numéricas, consulte<block ref="1959342221a46bb956c369d76f7bb821" category="inline-link-rx"></block>.</block>
-  <block id="fd826dfe5f5f6157612b1b0680fd88d2" category="list-text">Identifique la naturaleza del contenido con un encabezado, como «Requisitos previos», «Antes de empezar» o «Antes de empezar».</block>
-  <block id="c2159f5cfdf68b7ab4a868ea44b857c7" category="list-text">«Debe configurarse NFS o CIFS en el clúster».</block>
-  <block id="45361464d379c94ba6f235d2b85b29ca" category="list-text">«Debe tener la dirección IP de gestión de clúster y la contraseña de la cuenta de usuario administrador para añadir el clúster a Cloud Manager».</block>
-  <block id="925f58fabde93eb0ac1a9c6c2a6cf788" category="list-text">Clarifique el requisito previo según sea necesario: «NFS o CIFS debe configurarse en el clúster. Puede configurar NFS y CIFS mediante System Manager o la CLI».</block>
-  <block id="a2c7987a7c5c85f719477427b45a7fc4" category="list-text">Requisito previo: «Debe tener los permisos necesarios antes de poner en marcha el primer clúster».</block>
-  <block id="f761526d1757127301e7e53215be1ac6" category="list-text">Paso: «Proporcione los permisos necesarios para poner en marcha su primer clúster».</block>
-  <block id="0abcbc68c9feac3ead2c933795aa6f5a" category="section-title">anterior (frente a «anterior», «anterior» o «anterior»)</block>
-  <block id="47ab3a85d304ea1361826a0e729ab661" category="list-text">Si es posible, sustituya el anterior por el anterior.</block>
-  <block id="82c06dcc336effe8819346a3d3e0e35c" category="list-text">Si no puedes usar “Antes”, usa “Prior” como adjetivo para referirse a algo que ocurrió antes en el tiempo o con un orden de importancia superior.</block>
-  <block id="aef01257c22641929055ed2b510e5557" category="list-text">Utilice 'Previous' para indicar algo que ocurrió antes en un momento no especificado.</block>
-  <block id="d3bf1889bfe2a6d3f1e58461e673b5ef" category="list-text">Utilice la opción Anterior para indicar algo que ha ocurrido inmediatamente con anterioridad.</block>
-  <block id="06b0552284df3fe59e1ab143cd975490" category="list-text">Use una coma serie (coma Oxford) antes de la conjunción (“y” o “o”) en una lista narrativa de tres o más elementos.</block>
-  <block id="843771bfb2bc1277bdddc4bb40bba2ea" category="paragraph">Use “since” para indicar un paso del tiempo. No use “since” para significar “porque”.</block>
-  <block id="5c43b9308575617af1d87b2502a8c287" category="section-title">eso (frente a «qué» o «quién»)</block>
-  <block id="a57ceb2b83b685ed105c9e7cbf2973c5" category="list-text">Use “Eso” (sin una coma final) para introducir cláusulas que sean necesarias para que la frase tenga sentido.</block>
-  <block id="0aec03c873caef13ddd0cee0dfdf3d18" category="list-text">Usa “Eso” incluso si la frase es clara en inglés sin ella: “Compruebe que el ordenador está apagado”.</block>
-  <block id="d5337fb842fe71fde2a04361e0eb5cc6" category="list-text">Utilice “which” (con una coma final) para introducir cláusulas que añadan información complementaria pero que no sean necesarias para que la frase tenga sentido.</block>
-  <block id="468654d210e6315b69e22fee2ee1c328" category="list-text">Utilice “Who” para introducir cláusulas que hagan referencia a personas.</block>
-  <block id="36ccb1973b9666c02706fecb8d9f7cb2" category="paragraph">Cuando esté documentando una interfaz de usuario, confíe en la interfaz tanto como sea posible para guiar al usuario.</block>
-  <block id="04c24915e042645166a2b76326d8a15a" category="paragraph">Utilice un estilo simple y mímico al documentar las interfaces de usuario.</block>
-  <block id="5beef609e4101c55ac8830b63e85edc0" category="list-text">Supongamos que el usuario está utilizando la interfaz mientras lee el contenido:</block>
-  <block id="ce4c23bc75196cfbe2f4b044894abee8" category="list-text">No incluya «clic en Aceptar», «clic en Guardar» o «se ha creado el volumen» o cualquier otra cosa que resulte obvio para alguien que esté realizando la tarea.</block>
-  <block id="2a055491bf64f58be8d6a52e1e609f44" category="list-text">No utilice el clic. Siempre use “seleccionar” porque esa palabra cubre el ratón, el tacto, el teclado y cualquier otra forma de hacer una elección.</block>
-  <block id="6b251846895fc039be2285f540503e56" category="paragraph">Evite documentar el nivel de granularidad que requiera la nomenclatura de elementos de la interfaz de usuario.</block>
-  <block id="9a7c394be2b102aff7633d176cb2cfb0" category="paragraph">Confíe en la interfaz para guiar al usuario a través de los detalles de la interacción. Si debe obtener ese valor específico, asigne un nombre a la etiqueta en el elemento. Por ejemplo, “Seleccione el volumen deseado” o “Seleccione “Usar volumen existente”. No hay necesidad de nombrar menús, botones de radio o casillas de verificación, solo use la etiqueta.</block>
-  <block id="94ec525bb462edb85b697091fe1a12d1" category="paragraph">Siga la ortografía y el uso de mayúsculas que utiliza la interfaz de usuario al identificar etiquetas.</block>
-  <block id="39db270edb01c9004ca1d5b138b6e0d8" category="paragraph">Si a una etiqueta le siguen tres puntos, no incluya los tres puntos al asignar nombre al objeto. ANIME a los desarrolladores a utilizar mayúsculas en el estilo de título para las etiquetas de interfaz de usuario, para que la escritura sea más sencilla.</block>
-  <block id="a99f27f311a50b3ea0b276b124c916d6" category="paragraph">Utilice las capturas de pantalla con moderación.</block>
-  <block id="32610c4bd36ad36baee38e14539246c7" category="paragraph">Una captura de pantalla ocasional (captura de pantalla) ayuda a los usuarios a estar seguros de que están en el lugar correcto en una interfaz al iniciar o cambiar interfaces durante un flujo de trabajo. No utilice capturas de pantalla para mostrar qué datos introducir o qué valor seleccionar.</block>
-  <block id="b82c2c6f8dedbeb3f2192242dfb244ce" category="section-title">mientras (frente a «aunque»)</block>
-  <block id="a8725be5130c5015f50f29026862358e" category="list-text">Utilice «Mientras» para indicar algo que ocurre en el tiempo.</block>
-  <block id="1f9e771dea99b07dbcdbe2912dc1adb2" category="list-text">Utilice “Aunque” para representar una actividad que ocurre casi al mismo tiempo o poco después de otra actividad.</block>
-  <block id="85d1422db3849226daed5a00eb7f27cf" category="section-title">acrónimos y abreviaturas</block>
-  <block id="67e4f5c5f00a17a1b4ce3246a6964380" category="paragraph">Utilice acrónimos y abreviaturas bien conocidos para la familiaridad, pero evite las oscuras que podrían afectar negativamente la claridad y la findabilidad. Para convenciones adicionales para acrónimos y abreviaturas, consulte la<block ref="129adddb06df0e4a944a90759a2b150f" category="inline-link-rx"></block>.</block>
-  <block id="bdfbb9ac9fe98f630d4d38fca776a609" category="paragraph">Las amonestaciones son una herramienta poderosa cuando se usan correctamente. Pueden llamar la atención sobre información importante, proporcionar consejos útiles o advertir a los usuarios sobre peligros potenciales. Cuando se usan en exceso, pierden su impacto y pueden llevar a la fatiga del usuario. Aquí hay algunas pautas para asegurar el uso efectivo de las amonestaciones.</block>
-  <block id="6119ac1a35955a26ef75d563906cbe3d" category="list-text">NOTA Utilice LA NOTA para resaltar información importante que debe sobresalir del resto del texto. Sin embargo, evita usar NOTE para obtener información que no sea esencial para que los usuarios entiendan o completen una tarea. El propósito de una NOTA es llamar la atención del lector sobre puntos críticos que de otra manera podrían pasar por alto.</block>
-  <block id="f9157df517733068b87b36b76a31421e" category="list-text">PRECAUCIÓN Utilice PRECAUCIÓN para advertir a los usuarios sobre condiciones o acciones que pueden conducir a resultados no deseados, incluyendo lesiones personales o daños al equipo. Se debe TENER PRECAUCIÓN para llamar la atención sobre los riesgos potenciales que el usuario debe evitar para evitar daños o interrupciones.</block>
-  <block id="f47ad409538c3949a332704503a8123a" category="list-title">Directrices adicionales</block>
-  <block id="1468fb461f0c5feadd816a54f9094d1d" category="list-text">Utilice sólo admoniciones admitidas. No se admite ningún otro tipo de formato.</block>
-  <block id="16ef0cd6a13a91b99cf8dbc20e4c5c0a" category="list-text">Evite el uso excesivo de amonestaciones. El uso excesivo puede hacer que los usuarios se salten estas secciones importantes porque las consideran el «cajón basura» de nuestros documentos.</block>
-  <block id="7defe98212d28fe26abbe5a9cad4ae26" category="list-text">Como regla general, limite el número de amonestaciones a un máximo de 3 por página.</block>
-  <block id="61eaa50fbc86f3a53385a189d01e4277" category="list-text">Proporcionar información clara y concisa dentro de la admonición. El mensaje debe ser breve y al punto, permitiendo a los usuarios entender rápidamente la importancia de la información proporcionada.</block>
-  <block id="782ec3ae3054d5c9b55df66f9c637091" category="list-text">Evite las admoniciones de AsciiDoc en una tabla. Si el contenido debe identificarse como una nota, sugerencia o precaución, utilice Nota:, Consejo:, o Precaución: como introducción en línea del texto.</block>
-  <block id="2756ca63d216c97cd14d945694741c5a" category="list-text">Cuando utilice una lista dentro de una lista, limite la estructura a dos niveles como máximo de profundidad para mantener la claridad y la legibilidad. Si te encuentras con que necesitas más niveles, considera reorganizar el contenido para que sea más fácil para los usuarios navegar y entender.</block>
-  <block id="43803d6f6c9721992017b5a9a62d92ed" category="list-text">Cualquier lista, incluidas las listas anidadas, debe tener entre dos y siete entradas. En general, cuanto más corta sea la información de cada entrada, más entradas podrá agregar mientras mantiene la lista en un estado de exploración. Si una lista tiene varias entradas que contienen listas anidadas, considere el uso de secciones o títulos de bloque para dividir todo el elemento en fragmentos más consumibles.</block>
-  <block id="0d0db7fa358a7121846564bec41d0208" category="paragraph-title">Admoniciones estándar</block>
-  <block id="67b450f0b70d67f8a1f6c7ab673c0dc1" category="paragraph">Tres admoniciones estándar utilizan etiquetas personalizadas. Las etiquetas son NOTA, TIP y PRECAUCIÓN. Estas tres admoniciones estándar tienen un formato distinto al texto normal, y sus etiquetas siempre están escritas en mayúsculas en la fuente de AsciiDoc.</block>
-  <block id="e0281e48cc230df0d17e32bdeadafa88" category="list-text">Consejo Utilice EL CONSEJO para proporcionar consejos útiles o accesos directos que pueden mejorar la experiencia del usuario. Por ejemplo, un CONSEJO puede ayudar a un usuario a completar un paso o tarea de forma más fácil y eficiente. Un CONSEJO debe usarse con moderación, si es que lo hacemos, ya que nuestra política es documentar la mejor manera de completar una tarea por defecto.</block>
-  <block id="bd59449e44ac069f00cf02bf41b98a4d" category="paragraph-title">Admonición a las mejores prácticas</block>
-  <block id="45a55d2a6dc01617ff2813f1df068959" category="paragraph">La admonición Best Practice no es una etiqueta de admonición personalizada, sino que se puede utilizar como una convención de formato independiente. Utilice la práctica recomendada para resaltar formas óptimas de completar tareas o utilizar un producto. No son meras sugerencias, sino estrategias que han sido validadas por expertos o estándares de la industria.</block>
-  <block id="eb197ec8464405e0fdc0776ae747774e" category="list-text">*¿Qué hace una mejor práctica?*</block>
-  <block id="c38d161090999cc2cea467935210cce0" category="paragraph">Se trata de una estrategia práctica y específica para tareas que ofrece ventajas claras y está respaldada por fuentes fiables.</block>
-  <block id="9d4ddd8adc1dd6c331e4d319cc4e6a3f" category="list-text">* ¿Cuándo puedo usar las mejores prácticas?*</block>
-  <block id="455e1a544044086a420ba47a5d001280" category="paragraph">Puede utilizar las mejores prácticas para todos los tipos de contenido y todos los públicos. Como CONSEJOS, úsalos con moderación para mantener su significado.</block>
-  <block id="36744f1e0c64e2f519e59cccdba068a1" category="list-text">* ¿Cómo formateo las mejores prácticas?*</block>
-  <block id="c326700655ab8fca23fa2162a1adaa37" category="paragraph">Para utilizar el formato de mejores prácticas, aplique mayúsculas de estilo de oración, negrita el término Best Practice, seguido de dos puntos y un espacio.</block>
-  <block id="0c4265fbbfc82a92746e47643f565c1c" category="paragraph">Presente las mejores prácticas en un formato coherente y fácil de usar. Esto podría ser una lista con viñetas, una lista numerada o un párrafo, dependiendo del contexto. Por ejemplo, *Best Practice*: Pruebe siempre los cambios de configuración en un entorno de estadificación antes de aplicarlos a la producción.</block>
   <block id="264e061aa850fbdff533ac273d529d09" category="summary">La política de NetApp es prohibir la publicación de contenido generado por IA que no haya sido verificado ni validado por una persona.</block>
   <block id="d0482f09772a334a3c8f4646a75d2ae4" category="summary">Conozca la sintaxis de AsciiDoc para contribuir a la documentación de NetApp.</block>
   <block id="a383d20edf0eed3b667f267bc4178aa1" category="summary">Ayúdenos a mejorar la documentación de productos de NetApp mediante mejoras, correcciones y sugerencias.</block>
   <block id="810127b15467af054cfb3174cf01513c" category="doc">Contribuir a la documentación de productos de NetApp en GitHub</block>
-  <block id="5fc1774ab777f265a9e9e8436a4165bc" category="summary">Nuestro estilo es conversacional y empático, pero nos mantenemos profesionales y llegar al punto.</block>
-  <block id="db974238714ca8de634a7ce1d083a14f" category="section-title">API</block>
-  <block id="e823e37af27041a01f75462ee35c0848" category="paragraph">Una interfaz de programación de aplicaciones (API) se refiere a una interfaz única que proporciona acceso a un producto o servicio específico. Dentro de una API de producto grande, utilice el término _API_ para hacer referencia a cada conjunto de puntos finales asociados a un tipo de recurso o componente. Cuando haga referencia a varias interfaces distintas, utilice el término _APIs_.</block>
+  <block id="81d3824d52bedaabc588f0986efd89d2" category="inline-link-macro">Aprenda sobre la sintaxis AsciiDoc</block>
+  <block id="cbf664076e082a5d70bf523036ff4480" category="paragraph">Si necesita ayuda para editar el archivo fuente, puede<block ref="a3f60a185068457b542feef7aefa5d49" category="inline-link-macro-rx"></block> .</block>
 </blocks>

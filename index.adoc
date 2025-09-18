@@ -85,11 +85,7 @@ Si se siente cómodo editando el contenido, puede enviar los cambios exactos de 
 
 Como colaborador externo, no podrá publicar el cambio directamente. La derivación de contenido revisará los cambios, realizará las modificaciones necesarias y, a continuación, combinará los cambios. Recibirá una notificación por correo electrónico de GitHub cuando esto ocurra.
 
-Si necesita ayuda con nuestro estilo de escritura o sintaxis de origen, puede utilizar estos recursos:
-
-* link:style.html["Guía de estilos para documentos de NetApp"]
-* link:asciidoc_syntax.html["Sintaxis AsciiDoc"]
-
+Si necesita ayuda para editar el archivo fuente, puedelink:asciidoc_syntax.html["Aprenda sobre la sintaxis AsciiDoc"] .
 
 .Pasos
 . Si todavía no tiene una cuenta GitHub, https://github.com/join["cree una desde github.com"^]
